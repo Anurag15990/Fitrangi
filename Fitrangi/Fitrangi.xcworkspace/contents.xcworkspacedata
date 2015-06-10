@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UIImageViewObjectiveCBridge.h">
-   </FileRef>
-   <FileRef
       location = "group:Fitrangi.xcodeproj">
    </FileRef>
    <FileRef

@@ -1,5 +1,5 @@
 //
-//  Fitrangi-Bridging-Header.h
+//  Fitangi-Bridging-Header.h
 //  Fitrangi
 //
 //  Created by Anurag Agnihotri on 10/06/15.
@@ -10,5 +10,4 @@
 #import <UIKit/UIKit.h>
 #import "UIImageViewObjectiveCBridge.h"
 #import "UIImageView+WebCache.h"
-
 

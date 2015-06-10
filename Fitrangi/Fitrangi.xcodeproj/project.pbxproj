@@ -111,7 +111,9 @@
 		75B4CB081B281ADF002BAC09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewObjectiveCBridge.m; sourceTree = "<group>"; };
-		75B4CB0E1B281E49002BAC09 /* Fitrangi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitrangi-Bridging-Header.h"; sourceTree = "<group>"; };
+		75B4CB0F1B281FF6002BAC09 /* UIImageViewObjectiveCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewObjectiveCBridge.h; sourceTree = "<group>"; };
+		75B4CB101B28230F002BAC09 /* Fitangi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fitangi-Bridging-Header.h"; sourceTree = "<group>"; };
+		75B4CB111B2823BD002BAC09 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 				75B4CAA71B281788002BAC09 /* Images.xcassets */,
 				75B4CAA91B281788002BAC09 /* LaunchScreen.xib */,
 				75B4CA9C1B281788002BAC09 /* Supporting Files */,
+				75B4CB101B28230F002BAC09 /* Fitangi-Bridging-Header.h */,
 			);
 			path = Fitrangi;
 			sourceTree = "<group>";
@@ -239,9 +242,9 @@
 			isa = PBXGroup;
 			children = (
 				75B4CAC91B281883002BAC09 /* FontAwesome.swift */,
-				75B4CB0E1B281E49002BAC09 /* Fitrangi-Bridging-Header.h */,
 				75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */,
 				75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */,
+				75B4CB0F1B281FF6002BAC09 /* UIImageViewObjectiveCBridge.h */,
 				75B4CB081B281ADF002BAC09 /* UIView.swift */,
 				75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */,
 			);
@@ -251,6 +254,7 @@
 		75B4CAD01B281883002BAC09 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				75B4CB111B2823BD002BAC09 /* UIView+WebCacheOperation.h */,
 				75B4CACF1B281883002BAC09 /* SDImageCache.m */,
 				75B4CAD21B281883002BAC09 /* SDWebImageCompat.m */,
 				75B4CACE1B281883002BAC09 /* SDImageCache.h */,
@@ -614,6 +618,7 @@
 				INFOPLIST_FILE = Fitrangi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitrangi/Fitangi-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -625,6 +630,7 @@
 				INFOPLIST_FILE = Fitrangi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fitrangi/Fitangi-Bridging-Header.h";
 			};
 			name = Release;
 		};
