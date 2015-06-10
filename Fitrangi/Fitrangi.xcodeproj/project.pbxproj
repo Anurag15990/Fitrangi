@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBFDDAAF819E8119341E3E2 /* Pods_Fitrangi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91EE4743B46323812CDA14 /* Pods_Fitrangi.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		75B4CA9F1B281788002BAC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CA9E1B281788002BAC09 /* AppDelegate.swift */; };
 		75B4CAA11B281788002BAC09 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAA01B281788002BAC09 /* FirstViewController.swift */; };
 		75B4CAA31B281788002BAC09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAA21B281788002BAC09 /* SecondViewController.swift */; };
@@ -14,6 +15,34 @@
 		75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAA71B281788002BAC09 /* Images.xcassets */; };
 		75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAA91B281788002BAC09 /* LaunchScreen.xib */; };
 		75B4CAB71B281788002BAC09 /* FitrangiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAB61B281788002BAC09 /* FitrangiTests.swift */; };
+		75B4CAEF1B281883002BAC09 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAC01B281883002BAC09 /* Async.swift */; };
+		75B4CAF01B281883002BAC09 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAC11B281883002BAC09 /* AsyncImageView.swift */; };
+		75B4CAF11B281883002BAC09 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAC21B281883002BAC09 /* CustomView.swift */; };
+		75B4CAF21B281883002BAC09 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAC61B281883002BAC09 /* ContainerView.swift */; };
+		75B4CAF31B281883002BAC09 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAC91B281883002BAC09 /* FontAwesome.swift */; };
+		75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */; };
+		75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CACB1B281883002BAC09 /* FontAwesome.ttf */; };
+		75B4CAF61B281883002BAC09 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CACD1B281883002BAC09 /* NSData+ImageContentType.m */; };
+		75B4CAF71B281883002BAC09 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CACF1B281883002BAC09 /* SDImageCache.m */; };
+		75B4CAF81B281883002BAC09 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAD21B281883002BAC09 /* SDWebImageCompat.m */; };
+		75B4CAF91B281883002BAC09 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAD41B281883002BAC09 /* SDWebImageDecoder.m */; };
+		75B4CAFA1B281883002BAC09 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAD61B281883002BAC09 /* SDWebImageDownloader.m */; };
+		75B4CAFB1B281883002BAC09 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAD81B281883002BAC09 /* SDWebImageDownloaderOperation.m */; };
+		75B4CAFC1B281883002BAC09 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CADA1B281883002BAC09 /* SDWebImageManager.m */; };
+		75B4CAFD1B281883002BAC09 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CADD1B281883002BAC09 /* SDWebImagePrefetcher.m */; };
+		75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CADE1B281883002BAC09 /* SimpleAutoLayoutView.swift */; };
+		75B4CAFF1B281883002BAC09 /* StreamAdventureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */; };
+		75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */; };
+		75B4CB011B281883002BAC09 /* StreamFollowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */; };
+		75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */; };
+		75B4CB031B281883002BAC09 /* StreamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */; };
+		75B4CB041B281883002BAC09 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE61B281883002BAC09 /* UIButton+WebCache.m */; };
+		75B4CB051B281883002BAC09 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE81B281883002BAC09 /* UIImage+GIF.m */; };
+		75B4CB061B281883002BAC09 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAEA1B281883002BAC09 /* UIImage+MultiFormat.m */; };
+		75B4CB071B281883002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAEC1B281883002BAC09 /* UIImageView+HighlightedWebCache.m */; };
+		75B4CB091B281ADF002BAC09 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB081B281ADF002BAC09 /* UIView.swift */; };
+		75B4CB0B1B281BCC002BAC09 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */; };
+		75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39D5961F6F51C99107F77688 /* Pods-Fitrangi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.release.xcconfig"; sourceTree = "<group>"; };
+		4E91EE4743B46323812CDA14 /* Pods_Fitrangi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitrangi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B4CA991B281788002BAC09 /* Fitrangi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitrangi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B4CA9D1B281788002BAC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B4CA9E1B281788002BAC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +69,50 @@
 		75B4CAB01B281788002BAC09 /* FitrangiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrangiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B4CAB51B281788002BAC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B4CAB61B281788002BAC09 /* FitrangiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitrangiTests.swift; sourceTree = "<group>"; };
+		75B4CAC01B281883002BAC09 /* Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Async.swift; path = ../../Async.swift; sourceTree = "<group>"; };
+		75B4CAC11B281883002BAC09 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = ../../AsyncImageView.swift; sourceTree = "<group>"; };
+		75B4CAC21B281883002BAC09 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = ../../CustomView.swift; sourceTree = "<group>"; };
+		75B4CAC61B281883002BAC09 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		75B4CAC91B281883002BAC09 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintsFactory.swift; sourceTree = "<group>"; };
+		75B4CACB1B281883002BAC09 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		75B4CACC1B281883002BAC09 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "../NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		75B4CACD1B281883002BAC09 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "../NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		75B4CACE1B281883002BAC09 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = ../SDImageCache.h; sourceTree = "<group>"; };
+		75B4CACF1B281883002BAC09 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = ../SDImageCache.m; sourceTree = "<group>"; };
+		75B4CAD11B281883002BAC09 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = Fitrangi/SDWebImageCompat.h; sourceTree = SOURCE_ROOT; };
+		75B4CAD21B281883002BAC09 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = Fitrangi/SDWebImageCompat.m; sourceTree = SOURCE_ROOT; };
+		75B4CAD31B281883002BAC09 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = Fitrangi/SDWebImageDecoder.h; sourceTree = SOURCE_ROOT; };
+		75B4CAD41B281883002BAC09 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = Fitrangi/SDWebImageDecoder.m; sourceTree = SOURCE_ROOT; };
+		75B4CAD51B281883002BAC09 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = Fitrangi/SDWebImageDownloader.h; sourceTree = SOURCE_ROOT; };
+		75B4CAD61B281883002BAC09 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = Fitrangi/SDWebImageDownloader.m; sourceTree = SOURCE_ROOT; };
+		75B4CAD71B281883002BAC09 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = Fitrangi/SDWebImageDownloaderOperation.h; sourceTree = SOURCE_ROOT; };
+		75B4CAD81B281883002BAC09 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = Fitrangi/SDWebImageDownloaderOperation.m; sourceTree = SOURCE_ROOT; };
+		75B4CAD91B281883002BAC09 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = Fitrangi/SDWebImageManager.h; sourceTree = SOURCE_ROOT; };
+		75B4CADA1B281883002BAC09 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = Fitrangi/SDWebImageManager.m; sourceTree = SOURCE_ROOT; };
+		75B4CADB1B281883002BAC09 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = Fitrangi/SDWebImageOperation.h; sourceTree = SOURCE_ROOT; };
+		75B4CADC1B281883002BAC09 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = Fitrangi/SDWebImagePrefetcher.h; sourceTree = SOURCE_ROOT; };
+		75B4CADD1B281883002BAC09 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = Fitrangi/SDWebImagePrefetcher.m; sourceTree = SOURCE_ROOT; };
+		75B4CADE1B281883002BAC09 /* SimpleAutoLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleAutoLayoutView.swift; path = ../../SimpleAutoLayoutView.swift; sourceTree = "<group>"; };
+		75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAdventureCard.swift; sourceTree = "<group>"; };
+		75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamAdventureCard.xib; sourceTree = "<group>"; };
+		75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamFollowCard.swift; sourceTree = "<group>"; };
+		75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamFollowCard.xib; sourceTree = "<group>"; };
+		75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTableViewController.swift; sourceTree = "<group>"; };
+		75B4CAE51B281883002BAC09 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "../UIButton+WebCache.h"; sourceTree = "<group>"; };
+		75B4CAE61B281883002BAC09 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "../UIButton+WebCache.m"; sourceTree = "<group>"; };
+		75B4CAE71B281883002BAC09 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "../UIImage+GIF.h"; sourceTree = "<group>"; };
+		75B4CAE81B281883002BAC09 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "../UIImage+GIF.m"; sourceTree = "<group>"; };
+		75B4CAE91B281883002BAC09 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "../UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		75B4CAEA1B281883002BAC09 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "../UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		75B4CAEB1B281883002BAC09 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "../UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		75B4CAEC1B281883002BAC09 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "../UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		75B4CAED1B281883002BAC09 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "../UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		75B4CB081B281ADF002BAC09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewObjectiveCBridge.m; sourceTree = "<group>"; };
+		75B4CB0E1B281E49002BAC09 /* Fitrangi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitrangi-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBFDDAAF819E8119341E3E2 /* Pods_Fitrangi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +134,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A728F75D5AABFB2BFED68F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */,
+				39D5961F6F51C99107F77688 /* Pods-Fitrangi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75B4CA901B281788002BAC09 = {
 			isa = PBXGroup;
 			children = (
 				75B4CA9B1B281788002BAC09 /* Fitrangi */,
 				75B4CAB31B281788002BAC09 /* FitrangiTests */,
 				75B4CA9A1B281788002BAC09 /* Products */,
+				2A728F75D5AABFB2BFED68F1 /* Pods */,
+				BDB45FD5C06A6B8D14CD153A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +166,9 @@
 		75B4CA9B1B281788002BAC09 /* Fitrangi */ = {
 			isa = PBXGroup;
 			children = (
+				75B4CAC41B281883002BAC09 /* FitrangiKit */,
+				75B4CACB1B281883002BAC09 /* FontAwesome.ttf */,
+				75B4CADF1B281883002BAC09 /* Stream */,
 				75B4CA9E1B281788002BAC09 /* AppDelegate.swift */,
 				75B4CAA01B281788002BAC09 /* FirstViewController.swift */,
 				75B4CAA21B281788002BAC09 /* SecondViewController.swift */,
@@ -115,6 +205,103 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		75B4CAC41B281883002BAC09 /* FitrangiKit */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CAC51B281883002BAC09 /* CustomViews */,
+				75B4CAC71B281883002BAC09 /* ExternalLibs */,
+				75B4CAC81B281883002BAC09 /* Utils */,
+			);
+			path = FitrangiKit;
+			sourceTree = "<group>";
+		};
+		75B4CAC51B281883002BAC09 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CAC21B281883002BAC09 /* CustomView.swift */,
+				75B4CAC11B281883002BAC09 /* AsyncImageView.swift */,
+				75B4CAC01B281883002BAC09 /* Async.swift */,
+				75B4CADE1B281883002BAC09 /* SimpleAutoLayoutView.swift */,
+				75B4CAC61B281883002BAC09 /* ContainerView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		75B4CAC71B281883002BAC09 /* ExternalLibs */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CAD01B281883002BAC09 /* SDWebImage */,
+			);
+			path = ExternalLibs;
+			sourceTree = "<group>";
+		};
+		75B4CAC81B281883002BAC09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CAC91B281883002BAC09 /* FontAwesome.swift */,
+				75B4CB0E1B281E49002BAC09 /* Fitrangi-Bridging-Header.h */,
+				75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */,
+				75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */,
+				75B4CB081B281ADF002BAC09 /* UIView.swift */,
+				75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75B4CAD01B281883002BAC09 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CACF1B281883002BAC09 /* SDImageCache.m */,
+				75B4CAD21B281883002BAC09 /* SDWebImageCompat.m */,
+				75B4CACE1B281883002BAC09 /* SDImageCache.h */,
+				75B4CAD31B281883002BAC09 /* SDWebImageDecoder.h */,
+				75B4CAD81B281883002BAC09 /* SDWebImageDownloaderOperation.m */,
+				75B4CAE61B281883002BAC09 /* UIButton+WebCache.m */,
+				75B4CAD61B281883002BAC09 /* SDWebImageDownloader.m */,
+				75B4CAD91B281883002BAC09 /* SDWebImageManager.h */,
+				75B4CADD1B281883002BAC09 /* SDWebImagePrefetcher.m */,
+				75B4CAD51B281883002BAC09 /* SDWebImageDownloader.h */,
+				75B4CAD11B281883002BAC09 /* SDWebImageCompat.h */,
+				75B4CAD41B281883002BAC09 /* SDWebImageDecoder.m */,
+				75B4CADA1B281883002BAC09 /* SDWebImageManager.m */,
+				75B4CADC1B281883002BAC09 /* SDWebImagePrefetcher.h */,
+				75B4CAE51B281883002BAC09 /* UIButton+WebCache.h */,
+				75B4CAE81B281883002BAC09 /* UIImage+GIF.m */,
+				75B4CAE71B281883002BAC09 /* UIImage+GIF.h */,
+				75B4CADB1B281883002BAC09 /* SDWebImageOperation.h */,
+				75B4CAEC1B281883002BAC09 /* UIImageView+HighlightedWebCache.m */,
+				75B4CAD71B281883002BAC09 /* SDWebImageDownloaderOperation.h */,
+				75B4CACD1B281883002BAC09 /* NSData+ImageContentType.m */,
+				75B4CAE91B281883002BAC09 /* UIImage+MultiFormat.h */,
+				75B4CAEB1B281883002BAC09 /* UIImageView+HighlightedWebCache.h */,
+				75B4CAED1B281883002BAC09 /* UIImageView+WebCache.h */,
+				75B4CACC1B281883002BAC09 /* NSData+ImageContentType.h */,
+				75B4CAEA1B281883002BAC09 /* UIImage+MultiFormat.m */,
+			);
+			name = SDWebImage;
+			path = ../../SDWebImage;
+			sourceTree = "<group>";
+		};
+		75B4CADF1B281883002BAC09 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */,
+				75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */,
+				75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */,
+				75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */,
+				75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */,
+			);
+			path = Stream;
+			sourceTree = "<group>";
+		};
+		BDB45FD5C06A6B8D14CD153A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E91EE4743B46323812CDA14 /* Pods_Fitrangi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B4CABA1B281788002BAC09 /* Build configuration list for PBXNativeTarget "Fitrangi" */;
 			buildPhases = (
+				B33B1814636616CE4D4F80E6 /* Check Pods Manifest.lock */,
 				75B4CA951B281788002BAC09 /* Sources */,
 				75B4CA961B281788002BAC09 /* Frameworks */,
 				75B4CA971B281788002BAC09 /* Resources */,
+				A9D421B0D958D63EB894DC47 /* Embed Pods Frameworks */,
+				DD9A2A80A29772D0AAE3A5E5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +385,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */,
 				75B4CAA61B281788002BAC09 /* Main.storyboard in Resources */,
+				75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */,
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
 				75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */,
+				75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +403,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9D421B0D958D63EB894DC47 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33B1814636616CE4D4F80E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9A2A80A29772D0AAE3A5E5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75B4CA951B281788002BAC09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B4CB091B281ADF002BAC09 /* UIView.swift in Sources */,
+				75B4CB0B1B281BCC002BAC09 /* UIImageView.swift in Sources */,
+				75B4CB031B281883002BAC09 /* StreamTableViewController.swift in Sources */,
+				75B4CAF91B281883002BAC09 /* SDWebImageDecoder.m in Sources */,
+				75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */,
+				75B4CB041B281883002BAC09 /* UIButton+WebCache.m in Sources */,
+				75B4CAFC1B281883002BAC09 /* SDWebImageManager.m in Sources */,
+				75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */,
+				75B4CAF61B281883002BAC09 /* NSData+ImageContentType.m in Sources */,
+				75B4CAF81B281883002BAC09 /* SDWebImageCompat.m in Sources */,
+				75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */,
+				75B4CB011B281883002BAC09 /* StreamFollowCard.swift in Sources */,
+				75B4CAEF1B281883002BAC09 /* Async.swift in Sources */,
 				75B4CAA31B281788002BAC09 /* SecondViewController.swift in Sources */,
+				75B4CAFD1B281883002BAC09 /* SDWebImagePrefetcher.m in Sources */,
+				75B4CAFB1B281883002BAC09 /* SDWebImageDownloaderOperation.m in Sources */,
 				75B4CA9F1B281788002BAC09 /* AppDelegate.swift in Sources */,
+				75B4CAF11B281883002BAC09 /* CustomView.swift in Sources */,
+				75B4CB051B281883002BAC09 /* UIImage+GIF.m in Sources */,
+				75B4CB061B281883002BAC09 /* UIImage+MultiFormat.m in Sources */,
+				75B4CAF31B281883002BAC09 /* FontAwesome.swift in Sources */,
+				75B4CB071B281883002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */,
+				75B4CAFF1B281883002BAC09 /* StreamAdventureCard.swift in Sources */,
+				75B4CAF71B281883002BAC09 /* SDImageCache.m in Sources */,
+				75B4CAF01B281883002BAC09 /* AsyncImageView.swift in Sources */,
+				75B4CAF21B281883002BAC09 /* ContainerView.swift in Sources */,
+				75B4CAFA1B281883002BAC09 /* SDWebImageDownloader.m in Sources */,
 				75B4CAA11B281788002BAC09 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +608,7 @@
 		};
 		75B4CABB1B281788002BAC09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fitrangi/Info.plist;
@@ -352,6 +619,7 @@
 		};
 		75B4CABC1B281788002BAC09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D5961F6F51C99107F77688 /* Pods-Fitrangi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fitrangi/Info.plist;
@@ -413,6 +681,7 @@
 				75B4CABC1B281788002BAC09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75B4CABD1B281788002BAC09 /* Build configuration list for PBXNativeTarget "FitrangiTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +690,7 @@
 				75B4CABF1B281788002BAC09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
