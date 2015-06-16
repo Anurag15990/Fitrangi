@@ -43,6 +43,8 @@
 		75B4CB671B300B29002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB571B300B29002BAC09 /* UIImageView+HighlightedWebCache.m */; };
 		75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB591B300B29002BAC09 /* UIImageView+WebCache.m */; };
 		75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */; };
+		E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D662341B3052940069D310 /* StreamArticleCard.xib */; };
+		E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D662381B3056D10069D310 /* StreamArticleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,8 @@
 		75B4CB591B300B29002BAC09 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		75B4CB5A1B300B29002BAC09 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		E0D662341B3052940069D310 /* StreamArticleCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamArticleCard.xib; sourceTree = "<group>"; };
+		E0D662381B3056D10069D310 /* StreamArticleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamArticleCard.swift; sourceTree = "<group>"; };
 		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,11 +248,13 @@
 		75B4CADF1B281883002BAC09 /* Stream */ = {
 			isa = PBXGroup;
 			children = (
+				E0D662381B3056D10069D310 /* StreamArticleCard.swift */,
 				75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */,
 				75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */,
 				75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */,
 				75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */,
 				75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */,
+				E0D662341B3052940069D310 /* StreamArticleCard.xib */,
 			);
 			path = Stream;
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */,
+				E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */,
 				75B4CAA61B281788002BAC09 /* Main.storyboard in Resources */,
 				75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */,
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
@@ -474,6 +481,7 @@
 				75B4CB651B300B29002BAC09 /* UIImage+GIF.m in Sources */,
 				75B4CAF01B281883002BAC09 /* AsyncImageView.swift in Sources */,
 				75B4CB631B300B29002BAC09 /* SDWebImagePrefetcher.m in Sources */,
+				E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */,
 				75B4CB641B300B29002BAC09 /* UIButton+WebCache.m in Sources */,
 				75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */,
 				75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */,
