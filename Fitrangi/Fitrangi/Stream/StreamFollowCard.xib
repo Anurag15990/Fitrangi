@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="356" id="LKZ-Ht-Rkr" customClass="StreamFollowCard" customModule="Fitrangi_App" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="356" id="LKZ-Ht-Rkr" customClass="StreamFollowCard" customModule="Fitrangi" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="356"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LKZ-Ht-Rkr" id="UAi-EE-jED">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vo7-Wu-cCw" customClass="ContainerView" customModule="Fitrangi_App" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vo7-Wu-cCw" customClass="ContainerView" customModule="Fitrangi" customModuleProvider="target">
                         <rect key="frame" x="4" y="4" width="312" height="347.5"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HM2-7V-OuR" customClass="AsyncImageView" customModule="Fitrangi_App" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HM2-7V-OuR" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
                                 <rect key="frame" x="8" y="8" width="44" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Amx-Jk-0DP"/>
-                                    <constraint firstAttribute="width" constant="44" id="pA4-gJ-9DA"/>
+                                    <constraint firstAttribute="height" constant="44" id="40b-qS-nG1"/>
+                                    <constraint firstAttribute="width" constant="44" id="r6g-7f-fvg"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNm-BC-yTq">
                                 <rect key="frame" x="60" y="8" width="244" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="mVE-bC-HAI"/>
+                                    <constraint firstAttribute="height" constant="44" id="NDa-fb-g75"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.26446101641414144" green="0.26446101641414144" blue="0.26446101641414144" alpha="1" colorSpace="calibratedRGB"/>
@@ -35,53 +35,63 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFd-2K-IyT">
                                 <rect key="frame" x="8" y="60" width="296" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ttz-FH-d9b"/>
+                                    <constraint firstAttribute="height" constant="21" id="ySE-Ta-8fL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbi-bm-ir0" customClass="AsyncImageView" customModule="Fitrangi_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="89" width="312" height="194"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbi-bm-ir0" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="89" width="312" height="214"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="194" id="NX6-SY-wuA"/>
+                                    <constraint firstAttribute="height" constant="214" id="py4-dy-PxW"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAE-SO-t8G">
-                                <rect key="frame" x="8" y="291" width="296" height="48.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAE-SO-t8G">
+                                <rect key="frame" x="60" y="228" width="244" height="44.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48.5" id="jQW-JA-LSN"/>
+                                    <constraint firstAttribute="height" constant="44.5" id="zfs-81-rWj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.5470130997474747" green="0.5470130997474747" blue="0.5470130997474747" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QEN-yV-m63" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
+                                <rect key="frame" x="8" y="229" width="44" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2sc-ou-5pY"/>
+                                    <constraint firstAttribute="width" constant="44" id="Wlq-qH-9J0"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SNm-BC-yTq" firstAttribute="leading" secondItem="HM2-7V-OuR" secondAttribute="trailing" constant="8" id="Ali-j6-0yO"/>
-                            <constraint firstItem="fAE-SO-t8G" firstAttribute="top" secondItem="Gbi-bm-ir0" secondAttribute="bottom" constant="8" id="DU0-n4-EbZ"/>
-                            <constraint firstAttribute="trailing" secondItem="SNm-BC-yTq" secondAttribute="trailing" constant="8" id="ISL-E9-m0t"/>
-                            <constraint firstItem="HM2-7V-OuR" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="LZ0-I0-SBR"/>
-                            <constraint firstItem="fAE-SO-t8G" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="Prq-Ut-mZ3"/>
-                            <constraint firstItem="SNm-BC-yTq" firstAttribute="top" secondItem="vo7-Wu-cCw" secondAttribute="top" constant="8" id="S4I-X8-sQl"/>
-                            <constraint firstItem="Gbi-bm-ir0" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" id="bRf-um-86x"/>
-                            <constraint firstItem="Gbi-bm-ir0" firstAttribute="top" secondItem="XFd-2K-IyT" secondAttribute="bottom" constant="8" id="cxi-BR-uzb"/>
-                            <constraint firstAttribute="trailing" secondItem="fAE-SO-t8G" secondAttribute="trailing" constant="8" id="frS-Q0-gUT"/>
-                            <constraint firstItem="XFd-2K-IyT" firstAttribute="top" secondItem="SNm-BC-yTq" secondAttribute="bottom" constant="8" id="gwO-q9-gKC"/>
-                            <constraint firstAttribute="trailing" secondItem="Gbi-bm-ir0" secondAttribute="trailing" id="gxb-dx-k8v"/>
-                            <constraint firstItem="HM2-7V-OuR" firstAttribute="top" secondItem="vo7-Wu-cCw" secondAttribute="top" constant="8" id="jSM-x8-EbM"/>
-                            <constraint firstAttribute="trailing" secondItem="XFd-2K-IyT" secondAttribute="trailing" constant="8" id="ozN-dO-5k3"/>
-                            <constraint firstItem="XFd-2K-IyT" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="zKv-9F-rfV"/>
+                            <constraint firstItem="XFd-2K-IyT" firstAttribute="top" secondItem="SNm-BC-yTq" secondAttribute="bottom" constant="8" id="6G5-u5-qxC"/>
+                            <constraint firstItem="QEN-yV-m63" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="E2y-o0-l2Q"/>
+                            <constraint firstItem="HM2-7V-OuR" firstAttribute="top" secondItem="vo7-Wu-cCw" secondAttribute="top" constant="8" id="NEB-sT-uNE"/>
+                            <constraint firstItem="Gbi-bm-ir0" firstAttribute="top" secondItem="XFd-2K-IyT" secondAttribute="bottom" constant="8" id="THO-F2-7xO"/>
+                            <constraint firstAttribute="bottom" secondItem="QEN-yV-m63" secondAttribute="bottom" constant="74.5" id="TIO-qV-PdO"/>
+                            <constraint firstAttribute="bottom" secondItem="fAE-SO-t8G" secondAttribute="bottom" constant="75" id="WRQ-QJ-av2"/>
+                            <constraint firstAttribute="trailing" secondItem="XFd-2K-IyT" secondAttribute="trailing" constant="8" id="a48-7t-cD8"/>
+                            <constraint firstItem="SNm-BC-yTq" firstAttribute="leading" secondItem="HM2-7V-OuR" secondAttribute="trailing" constant="8" id="bdw-V5-UKC"/>
+                            <constraint firstItem="XFd-2K-IyT" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="iMw-fE-6N0"/>
+                            <constraint firstItem="SNm-BC-yTq" firstAttribute="top" secondItem="vo7-Wu-cCw" secondAttribute="top" constant="8" id="jPs-hb-RwH"/>
+                            <constraint firstItem="Gbi-bm-ir0" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" id="l8Y-c5-Fod"/>
+                            <constraint firstItem="fAE-SO-t8G" firstAttribute="leading" secondItem="QEN-yV-m63" secondAttribute="trailing" constant="8" id="q1u-wU-Pnp"/>
+                            <constraint firstItem="HM2-7V-OuR" firstAttribute="leading" secondItem="vo7-Wu-cCw" secondAttribute="leading" constant="8" id="ulj-90-vlm"/>
+                            <constraint firstAttribute="trailing" secondItem="fAE-SO-t8G" secondAttribute="trailing" constant="8" id="vRU-B2-VZ4"/>
+                            <constraint firstAttribute="trailing" secondItem="SNm-BC-yTq" secondAttribute="trailing" constant="8" id="xSD-XO-Bzn"/>
+                            <constraint firstAttribute="trailing" secondItem="Gbi-bm-ir0" secondAttribute="trailing" id="zMq-55-mGA"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="vo7-Wu-cCw" secondAttribute="bottom" constant="4" id="9tH-Jm-XXK"/>
-                    <constraint firstAttribute="trailing" secondItem="vo7-Wu-cCw" secondAttribute="trailing" constant="4" id="SQg-Pi-QZs"/>
-                    <constraint firstItem="vo7-Wu-cCw" firstAttribute="top" secondItem="UAi-EE-jED" secondAttribute="top" constant="4" id="cGf-PB-enk"/>
-                    <constraint firstItem="vo7-Wu-cCw" firstAttribute="leading" secondItem="UAi-EE-jED" secondAttribute="leading" constant="4" id="mF5-wm-DL8"/>
+                    <constraint firstItem="vo7-Wu-cCw" firstAttribute="top" secondItem="UAi-EE-jED" secondAttribute="top" constant="4" id="CNR-SS-CxR"/>
+                    <constraint firstAttribute="trailing" secondItem="vo7-Wu-cCw" secondAttribute="trailing" constant="4" id="u3P-9A-AEC"/>
+                    <constraint firstItem="vo7-Wu-cCw" firstAttribute="leading" secondItem="UAi-EE-jED" secondAttribute="leading" constant="4" id="wJT-mu-LK5"/>
+                    <constraint firstAttribute="bottom" secondItem="vo7-Wu-cCw" secondAttribute="bottom" constant="4" id="xbh-5K-zFd"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
@@ -89,8 +99,9 @@
                 <outlet property="containerView" destination="vo7-Wu-cCw" id="NyR-Y5-V1Z"/>
                 <outlet property="followerProfileImageView" destination="HM2-7V-OuR" id="Zbr-s4-frz"/>
                 <outlet property="followersName" destination="SNm-BC-yTq" id="lnl-BD-4ta"/>
+                <outlet property="followingCoverImageView" destination="Gbi-bm-ir0" id="RKg-CI-tcV"/>
                 <outlet property="followingName" destination="fAE-SO-t8G" id="es1-Aj-X4F"/>
-                <outlet property="followingProfileImageView" destination="Gbi-bm-ir0" id="eWT-9o-0zK"/>
+                <outlet property="followingProfileImageView" destination="QEN-yV-m63" id="rFF-7y-NMC"/>
             </connections>
             <point key="canvasLocation" x="327" y="356"/>
         </tableViewCell>
