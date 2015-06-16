@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Fitrangi-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Fitrangi-SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33A0C8CAF290369AA2A59E40</key>
+		<key>0200C69E5149F127FF7FEB72</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EAD50E0702EFDD6A2EBD5CB</key>
+		<key>12378C7B0CE4D9C48DE36269</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E6788886DBE0FC61BFA6DF2E</key>
+		<key>BDDD933E8F8B2191BB3A7B1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D922BA33BDEEF22754946C5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
