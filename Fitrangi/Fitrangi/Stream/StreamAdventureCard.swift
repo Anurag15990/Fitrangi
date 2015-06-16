@@ -30,8 +30,8 @@ class StreamAdventureCard : UITableViewCell {
         nameLabel.text = "Anurag Agnihotri"
         profileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/556f0ede453d1e5570a1636a/cover.jpeg", options: AsyncImageOptions.ShowAlways)
         titleLabel.text = "Hot Air Balooning at Udaipiur, Rajasthan"
-        //doneThisLabel.font = UIFont.fontAwesomeOfSize(14)
-        //addToWishListLabel.font = UIFont.fontAwesomeOfSize(14)
+        doneThisLabel.font = UIFont.fontAwesomeOfSize(14)
+        addToWishListLabel.font = UIFont.fontAwesomeOfSize(14)
         doneThisLabel.text = String.fontAwesomeIconWithName("fa-flag")
         addToWishListLabel.text = String.fontAwesomeIconWithName("fa-list")
     }
