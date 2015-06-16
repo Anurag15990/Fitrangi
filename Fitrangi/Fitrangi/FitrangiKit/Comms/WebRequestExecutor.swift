@@ -11,31 +11,19 @@ import Alamofire
 import SwiftyJSON
 import UIKit
 
-public protocol WebRequestData : class {
+public protocol WebRequestData  {
     func toDictionary() -> JSON
 }
 
-public class WebRequest<T: WebRequestData> {
-    let url: String
-    let data: T
-    
-    init(url: String, data: T) {
-        self.url = url
-        self.data = data
-    }
-}
-
 public protocol WebResponseData : class {
-    
     init(json: JSON)
-    
 }
 
 public class WebRequestExecutor {
 
     public class func executeGet<T: WebRequestData, U: WebResponseData>(url : String, request: T, completion: (response: U?, error: NSError?) -> Void) {
         
-        let parametersJson = JSON(request)
+        let parametersJson = request.toDictionary()
         Alamofire.request(.GET, url, parameters: parametersJson.dictionaryObject)
             .responseJSON { (req, res, json, error) in
                 if error == nil {
@@ -48,7 +36,7 @@ public class WebRequestExecutor {
     
     public class func executePost<T: WebRequestData, U: WebResponseData>(url : String, request : T, completion : (response : U?, error : NSError?) -> Void) {
         
-        let parametersJSON = JSON(request)
+        let parametersJSON = request.toDictionary()
         Alamofire.request(.POST, url, parameters : parametersJSON.dictionaryObject)
             .responseJSON {(req, res, json, error) in
                 if error == nil {
@@ -82,4 +70,10 @@ public class LoginResponseData : WebResponseData {
     required public init(json: JSON) {
         dictionary = json.dictionaryObject!
     }
+}
+
+
+
+public class LoginService {
+    
 }
