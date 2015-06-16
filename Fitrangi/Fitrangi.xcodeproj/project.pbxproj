@@ -43,6 +43,7 @@
 		75B4CB671B300B29002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB571B300B29002BAC09 /* UIImageView+HighlightedWebCache.m */; };
 		75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB591B300B29002BAC09 /* UIImageView+WebCache.m */; };
 		75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */; };
+		75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		75B4CB591B300B29002BAC09 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		75B4CB5A1B300B29002BAC09 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestExecutor.swift; sourceTree = "<group>"; };
 		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +211,7 @@
 		75B4CAC41B281883002BAC09 /* FitrangiKit */ = {
 			isa = PBXGroup;
 			children = (
+				75B4CB711B3055B0002BAC09 /* Comms */,
 				75B4CB3E1B300B06002BAC09 /* SDWebImage */,
 				75B4CAC51B281883002BAC09 /* CustomViews */,
 				75B4CAC81B281883002BAC09 /* Utils */,
@@ -288,6 +291,14 @@
 			);
 			name = SDWebImage;
 			path = ExternalLibs/SDWebImage;
+			sourceTree = "<group>";
+		};
+		75B4CB711B3055B0002BAC09 /* Comms */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */,
+			);
+			path = Comms;
 			sourceTree = "<group>";
 		};
 		BDB45FD5C06A6B8D14CD153A /* Frameworks */ = {
@@ -477,6 +488,7 @@
 				75B4CB641B300B29002BAC09 /* UIButton+WebCache.m in Sources */,
 				75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */,
 				75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */,
+				75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */,
 				75B4CB661B300B29002BAC09 /* UIImage+MultiFormat.m in Sources */,
 				75B4CB5F1B300B29002BAC09 /* SDWebImageDecoder.m in Sources */,
 				75B4CAF21B281883002BAC09 /* ContainerView.swift in Sources */,
