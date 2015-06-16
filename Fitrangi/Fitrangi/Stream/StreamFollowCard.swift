@@ -18,6 +18,8 @@ class StreamFollowCard: UITableViewCell {
     @IBOutlet weak var actionLabel : UILabel!
     @IBOutlet weak var containerView : ContainerView!
     @IBOutlet weak var followButton : UIButton!
+    @IBOutlet weak var followersLabel : UILabel!
+    @IBOutlet weak var followingLabel : UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,6 +36,10 @@ class StreamFollowCard: UITableViewCell {
         followButton.borderWidth = 1
         followButton.setTitle(String.fontAwesomeIconWithName("fa-user"), forState: UIControlState.Normal)
         followButton.titleLabel!.font = UIFont.fontAwesomeOfSize(20)
+        followersLabel.borderColor = UIColor.darkGrayColor().CGColor
+        followersLabel.borderWidth = 1
+        followingLabel.borderColor = UIColor.darkGrayColor().CGColor
+        followingLabel.borderWidth = 1
        // followButton.tintColor = UIColor.bl()
         // Initialization code
     }
