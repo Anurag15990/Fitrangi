@@ -17,6 +17,7 @@ class StreamFollowCard: UITableViewCell {
     @IBOutlet weak var followingName : UILabel!
     @IBOutlet weak var actionLabel : UILabel!
     @IBOutlet weak var containerView : ContainerView!
+    @IBOutlet weak var followButton : UIButton!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,10 +26,15 @@ class StreamFollowCard: UITableViewCell {
         followingProfileImageView.imageView.contentMode = .ScaleAspectFit
         followersName.text = "Anurag Agnihotri"
         followingName.text = "Arshad Ansari"
-        actionLabel.text = "Follows"
+        actionLabel.text = "Followed"
         followerProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/556f0ede453d1e5570a1636a/cover.jpeg", options: AsyncImageOptions.ShowAlways)
         followingProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/552e3f3f453d1e2b529d6518/cover.png", options: AsyncImageOptions.ShowAlways)
         followingCoverImageView.setImageWithUrl("http://d3q5zq83v3a4xj.cloudfront.net/images/userprofile-banner.jpg", options: AsyncImageOptions.ShowAlways)
+        followButton.borderColor = UIColor.lightGrayColor().CGColor
+        followButton.borderWidth = 1
+        followButton.setTitle(String.fontAwesomeIconWithName("fa-user"), forState: UIControlState.Normal)
+        followButton.titleLabel!.font = UIFont.fontAwesomeOfSize(20)
+       // followButton.tintColor = UIColor.bl()
         // Initialization code
     }
 
