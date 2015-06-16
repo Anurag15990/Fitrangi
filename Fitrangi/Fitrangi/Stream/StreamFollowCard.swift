@@ -28,7 +28,7 @@ class StreamFollowCard: UITableViewCell {
         followingProfileImageView.imageView.contentMode = .ScaleAspectFit
         followersName.text = "Anurag Agnihotri"
         followingName.text = "Arshad Ansari"
-        actionLabel.text = "Followed"
+        actionLabel.text = "followed"
         followerProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/556f0ede453d1e5570a1636a/cover.jpeg", options: AsyncImageOptions.ShowAlways)
         followingProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/552e3f3f453d1e2b529d6518/cover.png", options: AsyncImageOptions.ShowAlways)
         followingCoverImageView.setImageWithUrl("http://d3q5zq83v3a4xj.cloudfront.net/images/userprofile-banner.jpg", options: AsyncImageOptions.ShowAlways)
@@ -40,7 +40,11 @@ class StreamFollowCard: UITableViewCell {
         followersLabel.borderWidth = 1
         followingLabel.borderColor = UIColor.darkGrayColor().CGColor
         followingLabel.borderWidth = 1
-       // followButton.tintColor = UIColor.bl()
+        containerView.bringSubviewToFront(followButton)
+        containerView.bringSubviewToFront(followingProfileImageView)
+        containerView.bringSubviewToFront(followingName)
+        containerView.bringSubviewToFront(followersLabel)
+        containerView.bringSubviewToFront(followingLabel)
         // Initialization code
     }
 
