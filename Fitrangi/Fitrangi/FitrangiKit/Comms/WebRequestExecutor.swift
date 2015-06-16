@@ -11,11 +11,11 @@ import Alamofire
 import SwiftyJSON
 import UIKit
 
-protocol WebRequestData : class {
+public protocol WebRequestData : class {
     func toDictionary() -> JSON
 }
 
-class WebRequest<T: WebRequestData> {
+public class WebRequest<T: WebRequestData> {
     let url: String
     let data: T
     
@@ -25,36 +25,61 @@ class WebRequest<T: WebRequestData> {
     }
 }
 
-protocol WebResponseData : class {
+public protocol WebResponseData : class {
     
-    init(json: [String: AnyObject])
+    init(json: JSON)
     
 }
 
-class WebRequestExecutor {
+public class WebRequestExecutor {
 
-    func executeGet<T: WebRequestData, U: WebResponseData>(request: T, completion: (response: U, error: NSError) -> Void) {
+    public class func executeGet<T: WebRequestData, U: WebResponseData>(url : String, request: T, completion: (response: U?, error: NSError?) -> Void) {
         
-        let j = JSON(request)
-        Alamofire.request(.GET, "", parameters: j.dictionaryObject).responseJSON(options: NSJSONReadingOptions.AllowFragments, completionHandler: {(_, _, JSON, error) -> Void in
-            println(JSON)
-        })
-            
+        let parametersJson = JSON(request)
+        Alamofire.request(.GET, url, parameters: parametersJson.dictionaryObject)
+            .responseJSON { (req, res, json, error) in
+                if error == nil {
+                    completion(response: U(json: JSON(json!)), error: nil)
+                } else {
+                    completion(response: nil, error: error)
+                }
+        }
+    }
+    
+    public class func executePost<T: WebRequestData, U: WebResponseData>(url : String, request : T, completion : (response : U?, error : NSError?) -> Void) {
         
+        let parametersJSON = JSON(request)
+        Alamofire.request(.POST, url, parameters : parametersJSON.dictionaryObject)
+            .responseJSON {(req, res, json, error) in
+                if error == nil {
+                    completion(response: U(json: JSON(json!)), error: nil)
+                } else {
+                    completion(response: nil, error: error)
+                }
+        }
     }
 }
 
 
 
-class LoginRequestData : WebRequestData {
+public class LoginRequestData : WebRequestData {
     
     var userName : String!
     var password : String!
     
-    func toDictionary() -> JSON {
+    public func toDictionary() -> JSON {
         var dictionary = NSMutableDictionary()
         dictionary["UserName"] = userName
         dictionary["Password"] = password
         return JSON(dictionary)
+    }
+}
+
+public class LoginResponseData : WebResponseData {
+    
+    var dictionary = NSDictionary()
+    
+    required public init(json: JSON) {
+        dictionary = json.dictionaryObject!
     }
 }
