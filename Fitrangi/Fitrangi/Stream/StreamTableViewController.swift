@@ -15,6 +15,7 @@ class StreamTableViewController: UITableViewController {
     
         tableView.registerNib(UINib(nibName: "StreamAdventureCard", bundle: nil), forCellReuseIdentifier: "StreamAdventureCard")
         tableView.registerNib(UINib(nibName: "StreamFollowCard", bundle: nil), forCellReuseIdentifier: "StreamFollowCard")
+        tableView.registerNib(UINib(nibName: "StreamArticleCard", bundle: nil), forCellReuseIdentifier: "StreamArticleCard")
         tableView.separatorStyle = .None
 
         // Uncomment the following line to preserve selection between presentations
@@ -49,6 +50,10 @@ class StreamTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamFollowCard", forIndexPath: indexPath) as! StreamFollowCard
             
             // Configure the cell...
+            
+            return cell
+        } else if indexPath.row == 3 || indexPath.row == 4{
+            let cell = tableView.dequeueReusableCellWithIdentifier("StreamArticleCard", forIndexPath: indexPath) as! StreamArticleCard
             
             return cell
         } else {
