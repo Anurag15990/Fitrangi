@@ -46,6 +46,10 @@
 		75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */; };
 		E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D662341B3052940069D310 /* StreamArticleCard.xib */; };
 		E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D662381B3056D10069D310 /* StreamArticleCard.swift */; };
+		E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */; };
+		E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */; };
+		E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */; };
+		E0DE9B421B31963000E37F13 /* StreamActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +124,10 @@
 		75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestExecutor.swift; sourceTree = "<group>"; };
 		E0D662341B3052940069D310 /* StreamArticleCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamArticleCard.xib; sourceTree = "<group>"; };
 		E0D662381B3056D10069D310 /* StreamArticleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamArticleCard.swift; sourceTree = "<group>"; };
+		E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamDiscussionCard.xib; sourceTree = "<group>"; };
+		E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamDiscussionCard.swift; sourceTree = "<group>"; };
+		E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamActivityCard.xib; sourceTree = "<group>"; };
+		E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamActivityCard.swift; sourceTree = "<group>"; };
 		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -258,6 +266,10 @@
 				75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */,
 				75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */,
 				E0D662341B3052940069D310 /* StreamArticleCard.xib */,
+				E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */,
+				E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */,
+				E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */,
+				E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */,
 			);
 			path = Stream;
 			sourceTree = "<group>";
@@ -401,8 +413,10 @@
 				75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */,
 				E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */,
 				75B4CAA61B281788002BAC09 /* Main.storyboard in Resources */,
+				E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */,
 				75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */,
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
+				E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */,
 				75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */,
 				75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */,
 			);
@@ -476,6 +490,7 @@
 				75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */,
 				75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */,
 				75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */,
+				E0DE9B421B31963000E37F13 /* StreamActivityCard.swift in Sources */,
 				75B4CB611B300B29002BAC09 /* SDWebImageDownloaderOperation.m in Sources */,
 				75B4CB011B281883002BAC09 /* StreamFollowCard.swift in Sources */,
 				75B4CB5D1B300B29002BAC09 /* SDImageCache.m in Sources */,
@@ -484,6 +499,7 @@
 				75B4CAF11B281883002BAC09 /* CustomView.swift in Sources */,
 				75B4CB671B300B29002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */,
 				75B4CB5E1B300B29002BAC09 /* SDWebImageCompat.m in Sources */,
+				E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */,
 				75B4CB5C1B300B29002BAC09 /* NSData+ImageContentType.m in Sources */,
 				75B4CAF31B281883002BAC09 /* FontAwesome.swift in Sources */,
 				75B4CB621B300B29002BAC09 /* SDWebImageManager.m in Sources */,
