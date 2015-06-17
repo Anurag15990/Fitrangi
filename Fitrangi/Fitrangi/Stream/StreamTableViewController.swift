@@ -8,11 +8,17 @@
 
 import UIKit
 
-class StreamTableViewController: UITableViewController {
+class StreamTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+    
+    @IBOutlet weak var tableView : UITableView!
+    @IBOutlet weak var logoView : AsyncImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        logoView.setImageWithUrl("http://www.fitrangi.com/images/logo.png", options: AsyncImageOptions.ShowAlways)
+        logoView.imageView.backgroundColor = UIColorMake(231, 231, 231)
+        self.view.backgroundColor = UIColorMake(231, 231, 231)
         tableView.registerNib(UINib(nibName: "StreamAdventureCard", bundle: nil), forCellReuseIdentifier: "StreamAdventureCard")
         tableView.registerNib(UINib(nibName: "StreamFollowCard", bundle: nil), forCellReuseIdentifier: "StreamFollowCard")
         tableView.registerNib(UINib(nibName: "StreamArticleCard", bundle: nil), forCellReuseIdentifier: "StreamArticleCard")
@@ -34,20 +40,20 @@ class StreamTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return 10
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         if indexPath.row == 1 || indexPath.row == 2 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamFollowCard", forIndexPath: indexPath) as! StreamFollowCard
             
@@ -75,7 +81,7 @@ class StreamTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 356
     }
     

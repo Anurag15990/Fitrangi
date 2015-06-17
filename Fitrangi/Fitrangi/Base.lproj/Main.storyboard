@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -15,7 +15,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Wq7-vK-RHJ" kind="relationship" relationship="viewControllers" id="nL4-QC-nRQ"/>
+                        <segue destination="s70-og-WBk" kind="relationship" relationship="viewControllers" id="SNE-br-9uE"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -23,31 +23,53 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
         <!--Stream Table View Controller-->
-        <scene sceneID="ISn-Ja-AQ5">
+        <scene sceneID="abi-gO-d0g">
             <objects>
-                <tableViewController id="Wq7-vK-RHJ" customClass="StreamTableViewController" customModule="Fitrangi" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="i6H-IN-dai">
+                <viewController id="s70-og-WBk" customClass="StreamTableViewController" customModule="Fitrangi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AW1-I6-Ahr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yym-OJ-3QW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qib-aK-t2Z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NzD-Bv-Omy">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NzD-Bv-Omy" id="f1B-vq-WtW">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Wq7-vK-RHJ" id="fzp-rO-DlS"/>
-                            <outlet property="delegate" destination="Wq7-vK-RHJ" id="oPw-5r-8jg"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Uvc-RK-FeX"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4ad-b5-Cr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="W8C-QP-sak">
+                                <rect key="frame" x="0.0" y="55" width="320" height="513"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="s70-og-WBk" id="Cl8-D1-ire"/>
+                                    <outlet property="delegate" destination="s70-og-WBk" id="L61-hU-KEW"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ld-SU-wbh" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
+                                <rect key="frame" x="10" y="22" width="99" height="33"/>
+                                <color key="backgroundColor" red="0.95679450757575757" green="0.95679450757575757" blue="0.95679450757575757" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="gXv-V7-EAW"/>
+                                    <constraint firstAttribute="width" constant="99" id="nds-IL-kmI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94744318181818177" green="0.94744318181818177" blue="0.94744318181818177" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="W8C-QP-sak" firstAttribute="top" secondItem="5ld-SU-wbh" secondAttribute="bottom" id="A0I-Pz-eG2"/>
+                            <constraint firstItem="W8C-QP-sak" firstAttribute="leading" secondItem="qib-aK-t2Z" secondAttribute="leading" id="MnJ-FK-CL0"/>
+                            <constraint firstAttribute="bottom" secondItem="W8C-QP-sak" secondAttribute="bottom" id="aiW-9H-aaL"/>
+                            <constraint firstItem="5ld-SU-wbh" firstAttribute="top" secondItem="AW1-I6-Ahr" secondAttribute="bottom" constant="2" id="f09-mZ-MCj"/>
+                            <constraint firstAttribute="trailing" secondItem="W8C-QP-sak" secondAttribute="trailing" id="vcC-RJ-Kh5"/>
+                            <constraint firstItem="5ld-SU-wbh" firstAttribute="leading" secondItem="qib-aK-t2Z" secondAttribute="leading" constant="10" id="x1c-BK-WfA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="2Q4-WZ-sG9"/>
+                    <connections>
+                        <outlet property="logoView" destination="5ld-SU-wbh" id="NLs-Ex-193"/>
+                        <outlet property="tableView" destination="W8C-QP-sak" id="z5j-Bn-ARL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEk-Pe-fhb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="378.66666666666669" y="-340.80000000000001"/>
+            <point key="canvasLocation" x="424" y="-265"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
