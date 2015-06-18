@@ -59,6 +59,8 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="23"/>
                                 <color key="textColor" red="0.98473011359999996" green="0.98473011359999996" blue="0.98473011359999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QEN-yV-m63" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
                                 <rect key="frame" x="8" y="209" width="69" height="69"/>
@@ -78,6 +80,8 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="0.20872790404040409" green="0.20872790404040409" blue="0.20872790404040409" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4T-ih-uFV">
                                 <rect key="frame" x="193" y="246" width="100" height="25"/>
@@ -89,6 +93,8 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="0.29815735479797978" green="0.29815735479797978" blue="0.29815735479797978" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbi-bm-ir0" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="60" width="312" height="243"/>

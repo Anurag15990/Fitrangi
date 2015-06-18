@@ -32,6 +32,8 @@ class StreamFollowCard: UITableViewCell {
         followersLabel.text = "5 FOLLOWERS"
         followingLabel.text = "6 FOLLOWING"
         followerProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/556f0ede453d1e5570a1636a/cover.jpeg", options: AsyncImageOptions.ShowAlways)
+        followingProfileImageView.borderWidth = 2
+        followingProfileImageView.borderColor = UIColor.whiteColor().CGColor
         followingProfileImageView.setImageWithUrl("http://www.fitrangi.com/assets/media/profile/552e3f3f453d1e2b529d6518/cover.png", options: AsyncImageOptions.ShowAlways)
         followingCoverImageView.setImageWithUrl("http://d3q5zq83v3a4xj.cloudfront.net/images/userprofile-banner.jpg", options: AsyncImageOptions.ShowAlways)
         followButton.borderColor = UIColor.lightGrayColor().CGColor

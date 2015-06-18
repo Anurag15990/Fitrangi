@@ -24,6 +24,7 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
         tableView.registerNib(UINib(nibName: "StreamArticleCard", bundle: nil), forCellReuseIdentifier: "StreamArticleCard")
         tableView.registerNib(UINib(nibName: "StreamDiscussionCard", bundle: nil), forCellReuseIdentifier: "StreamDiscussionCard")
         tableView.registerNib(UINib(nibName: "StreamActivityCard", bundle: nil), forCellReuseIdentifier: "StreamActivityCard")
+        tableView.registerNib(UINib(nibName: "ProfileCard", bundle: nil), forCellReuseIdentifier: "ProfileView")
         tableView.separatorStyle = .None
 
         // Uncomment the following line to preserve selection between presentations
@@ -49,31 +50,38 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
      func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 10
+        return 6
     }
 
     
      func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        if indexPath.row == 1 || indexPath.row == 2 {
+        if indexPath.row == 1 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamFollowCard", forIndexPath: indexPath) as! StreamFollowCard
             
             // Configure the cell...
             
             return cell
-        } else if indexPath.row == 3 || indexPath.row == 4{
+        } else if indexPath.row == 2 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamArticleCard", forIndexPath: indexPath) as! StreamArticleCard
             
             return cell
-        }else if indexPath.row == 5 || indexPath.row == 6 {
+        }else if indexPath.row == 3 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamDiscussionCard", forIndexPath: indexPath) as! StreamDiscussionCard
             
             return cell
-        } else if indexPath.row == 7 || indexPath.row == 8 {
+        } else if indexPath.row == 4 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamActivityCard", forIndexPath: indexPath) as! StreamActivityCard
             
             return cell
-        }else {
+        } else if indexPath.row == 5 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamAdventureCard", forIndexPath: indexPath) as! StreamAdventureCard
+            
+            // Configure the cell...
+            
+            return cell
+
+        } else {
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProfileView", forIndexPath: indexPath) as! ProfileView
         
         // Configure the cell...
 
