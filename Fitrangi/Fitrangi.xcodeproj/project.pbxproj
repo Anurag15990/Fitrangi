@@ -48,6 +48,7 @@
 		E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D662381B3056D10069D310 /* StreamArticleCard.swift */; };
 		E0D6B8BE1B329C81001971C3 /* ProfileCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */; };
 		E0D6B8C01B329EC7001971C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */; };
+		E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */; };
 		E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */; };
 		E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */; };
 		E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */; };
@@ -128,6 +129,7 @@
 		E0D662381B3056D10069D310 /* StreamArticleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamArticleCard.swift; sourceTree = "<group>"; };
 		E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCard.xib; sourceTree = "<group>"; };
 		E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamDiscussionCard.xib; sourceTree = "<group>"; };
 		E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamDiscussionCard.swift; sourceTree = "<group>"; };
 		E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamActivityCard.xib; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */,
 				E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */,
 				E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */,
+				E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */,
 				E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */,
 				E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */,
 				E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */,
@@ -521,6 +524,7 @@
 				75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */,
 				75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */,
 				75B4CB661B300B29002BAC09 /* UIImage+MultiFormat.m in Sources */,
+				E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */,
 				75B4CB5F1B300B29002BAC09 /* SDWebImageDecoder.m in Sources */,
 				E0D6B8C01B329EC7001971C3 /* ProfileView.swift in Sources */,
 				75B4CAF21B281883002BAC09 /* ContainerView.swift in Sources */,

@@ -10,13 +10,11 @@ import Foundation
 
 class ProfileView : UITableViewCell {
     
-    //@IBOutlet weak var containerView : ContainerView!
     @IBOutlet weak var coverImageView : AsyncImageView!
     @IBOutlet weak var profileImageView : AsyncImageView!
     @IBOutlet weak var nameLabel : UILabel!
     @IBOutlet weak var followersLabel : UILabel!
     @IBOutlet weak var followingLabel : UILabel!
-    //@IBOutlet weak var followButton : UIButton!
     @IBOutlet weak var locationMapLabel : UILabel!
     @IBOutlet weak var locationNameLabel : UILabel!
     @IBOutlet weak var locationView : UIView!
@@ -40,10 +38,6 @@ class ProfileView : UITableViewCell {
         followingLabel.borderWidth = 1
         followingLabel.borderColor = UIColor.darkGrayColor().CGColor
         followingLabel.text = "4 FOLLOWING"
-        /* followButton.borderWidth = 1
-        followButton.borderColor = UIColor.lightGrayColor().CGColor
-        followButton.setTitle(String.fontAwesomeIconWithName("fa-user"), forState: UIControlState.Normal)
-        followButton.titleLabel!.font = UIFont.fontAwesomeOfSize(20) */
         locationMapLabel.text = String.fontAwesomeIconWithName("fa-map-marker")
         locationMapLabel.font = UIFont.fontAwesomeOfSize(20)
         locationNameLabel.text = "Mumbai, Maharashtra, India"
@@ -57,8 +51,5 @@ class ProfileView : UITableViewCell {
         settingsIconLabel.text = String.fontAwesomeIconWithName("fa-cog")
         settingsIconLabel.font = UIFont.fontAwesomeOfSize(20)
         settingsLabel.text = "Settings"
-        //coverImageView.alpha = 0.6
-        //coverImageView.opaque = false
-        
     }
 }
