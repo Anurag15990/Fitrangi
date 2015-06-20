@@ -17,8 +17,7 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
         super.viewDidLoad()
         
         logoView.setImageWithUrl("http://www.fitrangi.com/images/logo.png", options: AsyncImageOptions.ShowAlways)
-        logoView.imageView.backgroundColor = UIColorMake(231, 231, 231)
-        self.view.backgroundColor = UIColorMake(231, 231, 231)
+        logoView.imageView.backgroundColor = UIColor.whiteColor()
         tableView.registerNib(UINib(nibName: "StreamAdventureCard", bundle: nil), forCellReuseIdentifier: "StreamAdventureCard")
         tableView.registerNib(UINib(nibName: "StreamFollowCard", bundle: nil), forCellReuseIdentifier: "StreamFollowCard")
         tableView.registerNib(UINib(nibName: "StreamArticleCard", bundle: nil), forCellReuseIdentifier: "StreamArticleCard")
@@ -73,24 +72,29 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamActivityCard", forIndexPath: indexPath) as! StreamActivityCard
             
             return cell
-        } else if indexPath.row == 5 {
+        } else {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamAdventureCard", forIndexPath: indexPath) as! StreamAdventureCard
             
             // Configure the cell...
             
             return cell
 
-        } else {
+        } /*else {
             let cell = tableView.dequeueReusableCellWithIdentifier("ProfileView", forIndexPath: indexPath) as! ProfileView
         
         // Configure the cell...
 
             return cell
-        }
+        }*/
     }
     
      func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 356
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        var vc = StreamUserProfileViewController(nibName: "StreamUserProfileView", bundle : nil) as StreamUserProfileViewController
+        presentViewController(vc, animated: true, completion: nil)
     }
     
 

@@ -27,7 +27,7 @@ class StreamDiscussionCard : UITableViewCell {
         profileImageView.imageView.contentMode = .ScaleAspectFit
         nameLabel.text = "Arshad Ansari"
         actionLabel.text = "started a discussion"
-        profileImageView.setImageWithUrl("http://www.fitrangi.com/media/profile/552e3f3f453d1e2b529d6518/cover.png", options: AsyncImageOptions.ShowAlways)
+        profileImageView.setImageWithUrl("http://www.fitrangi.com/media/profile/552e3f3f453d1e2b529d6518/cover.jpeg", options: AsyncImageOptions.ShowAlways)
         discussionCoverImageView.setImageWithUrl("http://www.fitrangi.com/media/adventure/556c5865453d1e556f2a9010/cover.jpeg", options: AsyncImageOptions.ShowAlways)
         discussionTitleLabel.text = "How does one get into rock climbing?"
         viewsLabel.text = "108 Views"

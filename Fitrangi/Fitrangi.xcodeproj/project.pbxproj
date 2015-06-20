@@ -49,6 +49,10 @@
 		E0D6B8BE1B329C81001971C3 /* ProfileCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */; };
 		E0D6B8C01B329EC7001971C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */; };
 		E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */; };
+		E0D7DDDC1B356C9100347C1F /* StreamUserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */; };
+		E0D7DDDE1B356CDB00347C1F /* StreamUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */; };
+		E0D7DDE01B35894800347C1F /* UserProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */; };
+		E0D7DDE21B358B1700347C1F /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */; };
 		E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */; };
 		E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */; };
 		E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */; };
@@ -130,6 +134,10 @@
 		E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCard.xib; sourceTree = "<group>"; };
 		E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamUserProfileView.xib; sourceTree = "<group>"; };
+		E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamUserProfileViewController.swift; sourceTree = "<group>"; };
+		E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileHeader.xib; sourceTree = "<group>"; };
+		E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamDiscussionCard.xib; sourceTree = "<group>"; };
 		E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamDiscussionCard.swift; sourceTree = "<group>"; };
 		E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamActivityCard.xib; sourceTree = "<group>"; };
@@ -279,6 +287,10 @@
 				E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */,
 				E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */,
 				E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */,
+				E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */,
+				E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */,
+				E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */,
+				E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */,
 			);
 			path = Stream;
 			sourceTree = "<group>";
@@ -422,11 +434,13 @@
 				75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */,
 				E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */,
 				75B4CAA61B281788002BAC09 /* Main.storyboard in Resources */,
+				E0D7DDE01B35894800347C1F /* UserProfileHeader.xib in Resources */,
 				E0D6B8BE1B329C81001971C3 /* ProfileCard.xib in Resources */,
 				E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */,
 				75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */,
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
 				E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */,
+				E0D7DDDC1B356C9100347C1F /* StreamUserProfileView.xib in Resources */,
 				75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */,
 				75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */,
 			);
@@ -497,6 +511,7 @@
 				75B4CB091B281ADF002BAC09 /* UIView.swift in Sources */,
 				75B4CB0B1B281BCC002BAC09 /* UIImageView.swift in Sources */,
 				75B4CB031B281883002BAC09 /* StreamTableViewController.swift in Sources */,
+				E0D7DDE21B358B1700347C1F /* UserProfileHeader.swift in Sources */,
 				75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */,
 				75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */,
 				75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */,
@@ -516,6 +531,7 @@
 				75B4CB601B300B29002BAC09 /* SDWebImageDownloader.m in Sources */,
 				75B4CAFF1B281883002BAC09 /* StreamAdventureCard.swift in Sources */,
 				75B4CB651B300B29002BAC09 /* UIImage+GIF.m in Sources */,
+				E0D7DDDE1B356CDB00347C1F /* StreamUserProfileViewController.swift in Sources */,
 				75B4CAF01B281883002BAC09 /* AsyncImageView.swift in Sources */,
 				75B4CB631B300B29002BAC09 /* SDWebImagePrefetcher.m in Sources */,
 				E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */,
