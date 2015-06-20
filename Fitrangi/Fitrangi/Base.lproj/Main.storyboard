@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eq7-er-3Xq">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-banner" translatesAutoresizingMaskIntoConstraints="NO" id="nyK-RM-5Ph">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-banner2" translatesAutoresizingMaskIntoConstraints="NO" id="nyK-RM-5Ph">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6Db-As-5WT">
                                 <rect key="frame" x="45" y="28" width="230" height="44"/>
-                                <color key="backgroundColor" white="0.89522512335526316" alpha="0.56000000000000005" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="JAw-nY-1T6"/>
                                 </constraints>
@@ -455,7 +455,9 @@
                             <constraint firstItem="5ld-SU-wbh" firstAttribute="leading" secondItem="qib-aK-t2Z" secondAttribute="leading" constant="10" id="x1c-BK-WfA"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="2Q4-WZ-sG9"/>
+                    <tabBarItem key="tabBarItem" selectedImage="home" systemItem="featured" id="2Q4-WZ-sG9">
+                        <inset key="imageInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="logoView" destination="5ld-SU-wbh" id="NLs-Ex-193"/>
                         <outlet property="tableView" destination="W8C-QP-sak" id="z5j-Bn-ARL"/>
@@ -467,7 +469,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="login-banner" width="840" height="475"/>
+        <image name="home" width="30" height="30"/>
+        <image name="home-banner2" width="683" height="250"/>
         <image name="logo" width="107" height="45"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
