@@ -24,6 +24,8 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
         tableView.registerNib(UINib(nibName: "StreamDiscussionCard", bundle: nil), forCellReuseIdentifier: "StreamDiscussionCard")
         tableView.registerNib(UINib(nibName: "StreamActivityCard", bundle: nil), forCellReuseIdentifier: "StreamActivityCard")
         tableView.registerNib(UINib(nibName: "ProfileCard", bundle: nil), forCellReuseIdentifier: "ProfileView")
+        tableView.registerNib(UINib(nibName: "DiscussionDetailCard", bundle: nil), forCellReuseIdentifier: "DiscussionDetailCard")
+        tableView.registerNib(UINib(nibName: "CommentsView", bundle: nil), forCellReuseIdentifier: "CommentsView")
         tableView.separatorStyle = .None
 
         // Uncomment the following line to preserve selection between presentations
@@ -72,20 +74,20 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamActivityCard", forIndexPath: indexPath) as! StreamActivityCard
             
             return cell
-        } else {
+        } else if indexPath.row == 5 {
             let cell = tableView.dequeueReusableCellWithIdentifier("StreamAdventureCard", forIndexPath: indexPath) as! StreamAdventureCard
             
             // Configure the cell...
             
             return cell
 
-        } /*else {
-            let cell = tableView.dequeueReusableCellWithIdentifier("ProfileView", forIndexPath: indexPath) as! ProfileView
+        } else {
+            let cell = tableView.dequeueReusableCellWithIdentifier("StreamAdventureCard", forIndexPath: indexPath) as! StreamAdventureCard
         
         // Configure the cell...
 
             return cell
-        }*/
+        }
     }
     
      func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -93,7 +95,7 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var vc = StreamUserProfileViewController(nibName: "StreamUserProfileView", bundle : nil) as StreamUserProfileViewController
+        var vc = DiscussionDetailViewController(nibName: "DiscussionDetailView", bundle : nil) as DiscussionDetailViewController
         presentViewController(vc, animated: true, completion: nil)
     }
     

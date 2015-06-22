@@ -43,7 +43,7 @@ class ProfileView : UITableViewCell {
         locationNameLabel.text = "Mumbai, Maharashtra, India"
         editView.borderWidth = 1
         editView.borderColor = UIColor.darkGrayColor().CGColor
-        editIconLabel.text = String.fontAwesomeIconWithName("fa-edit")
+        editIconLabel.text = String.fontAwesomeIconWithName("fa-pencil")
         editIconLabel.font = UIFont.fontAwesomeOfSize(20)
         editLabel.text = "Edit"
         settingsView.borderWidth = 1
