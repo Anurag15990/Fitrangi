@@ -89,8 +89,17 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_____________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bI2-nV-RL9">
+                        <rect key="frame" x="0.0" y="226" width="320" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="4TK-kg-NwR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ9-kX-Nsj">
-                        <rect key="frame" x="11" y="235" width="301" height="124.5"/>
+                        <rect key="frame" x="9" y="250" width="302" height="109.5"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -99,24 +108,27 @@
                 <constraints>
                     <constraint firstItem="GSi-48-OKJ" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" id="04l-KZ-H1y"/>
                     <constraint firstItem="YAA-nn-i1f" firstAttribute="top" secondItem="plz-OZ-uWh" secondAttribute="bottom" constant="8" id="49D-an-hc8"/>
+                    <constraint firstItem="MZ9-kX-Nsj" firstAttribute="top" secondItem="bI2-nV-RL9" secondAttribute="bottom" constant="6" id="8Ob-sj-y2h"/>
                     <constraint firstAttribute="trailing" secondItem="UPM-P2-c3V" secondAttribute="trailing" constant="8" id="AUt-Ls-57y"/>
                     <constraint firstItem="plz-OZ-uWh" firstAttribute="leading" secondItem="Lwn-om-he4" secondAttribute="trailing" id="Agc-IF-g2M"/>
-                    <constraint firstItem="MZ9-kX-Nsj" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" constant="11" id="BFS-hg-kez"/>
+                    <constraint firstAttribute="trailing" secondItem="MZ9-kX-Nsj" secondAttribute="trailing" constant="9" id="Eex-Ai-qkn"/>
                     <constraint firstAttribute="trailing" secondItem="Av6-em-MIQ" secondAttribute="trailing" constant="8" id="EfW-7n-nja"/>
                     <constraint firstItem="UPM-P2-c3V" firstAttribute="leading" secondItem="YAA-nn-i1f" secondAttribute="trailing" constant="4" id="HKR-NH-ANk"/>
                     <constraint firstItem="UPM-P2-c3V" firstAttribute="top" secondItem="plz-OZ-uWh" secondAttribute="bottom" constant="8" id="KaW-bu-UR3"/>
                     <constraint firstItem="GSi-48-OKJ" firstAttribute="top" secondItem="eQ8-x9-SCA" secondAttribute="top" id="LDn-F0-9ru"/>
-                    <constraint firstItem="MZ9-kX-Nsj" firstAttribute="top" secondItem="O4U-iU-XVJ" secondAttribute="bottom" constant="8" id="LSd-tg-uJ4"/>
                     <constraint firstItem="Lwn-om-he4" firstAttribute="top" secondItem="Av6-em-MIQ" secondAttribute="bottom" constant="8" id="NkY-gf-BPK"/>
-                    <constraint firstAttribute="bottom" secondItem="MZ9-kX-Nsj" secondAttribute="bottom" constant="8" id="QIA-el-Lr7"/>
                     <constraint firstItem="O4U-iU-XVJ" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" constant="11" id="SYB-I4-645"/>
                     <constraint firstItem="O4U-iU-XVJ" firstAttribute="top" secondItem="plz-OZ-uWh" secondAttribute="bottom" constant="8" id="UDE-S6-9UD"/>
                     <constraint firstItem="plz-OZ-uWh" firstAttribute="top" secondItem="Av6-em-MIQ" secondAttribute="bottom" constant="8" id="W7e-pg-MRS"/>
+                    <constraint firstItem="MZ9-kX-Nsj" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" constant="9" id="aJg-vI-FOV"/>
+                    <constraint firstItem="bI2-nV-RL9" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" id="bSU-uk-WKh"/>
+                    <constraint firstAttribute="trailing" secondItem="bI2-nV-RL9" secondAttribute="trailing" id="fgf-B0-qyO"/>
                     <constraint firstAttribute="trailing" secondItem="GSi-48-OKJ" secondAttribute="trailing" id="gZU-ya-LhC"/>
                     <constraint firstItem="Av6-em-MIQ" firstAttribute="top" secondItem="eQ8-x9-SCA" secondAttribute="top" constant="112" id="qVt-P0-f4Z"/>
+                    <constraint firstAttribute="bottom" secondItem="MZ9-kX-Nsj" secondAttribute="bottom" constant="8" id="qe2-XE-wiY"/>
+                    <constraint firstItem="bI2-nV-RL9" firstAttribute="top" secondItem="plz-OZ-uWh" secondAttribute="bottom" constant="29" id="raJ-Ci-hH4"/>
                     <constraint firstAttribute="trailing" secondItem="plz-OZ-uWh" secondAttribute="trailing" constant="8" id="vGE-cw-2DJ"/>
                     <constraint firstItem="Lwn-om-he4" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" constant="11" id="w4m-Lv-Fu0"/>
-                    <constraint firstAttribute="trailing" secondItem="MZ9-kX-Nsj" secondAttribute="trailing" constant="8" id="yUt-WC-fxy"/>
                     <constraint firstItem="Av6-em-MIQ" firstAttribute="leading" secondItem="eQ8-x9-SCA" secondAttribute="leading" constant="8" id="zuU-PR-XJ4"/>
                 </constraints>
             </tableViewCellContentView>

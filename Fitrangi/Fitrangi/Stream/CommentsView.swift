@@ -18,7 +18,6 @@ class CommentsView : UITableViewCell {
         super.awakeFromNib()
         nameLabel.text = "Avdhesh Kumar Singh"
         commentContentLabel.text = "Well you can opt for mountaineering course from any of the below institutes. \n 1. ABVIMAS, Manali. (Himachal Pradesh) \n 2. NIM, Uttarkashi (Uttarakhand) \n 3. HMI, Darjeling."
-        //commentContentLabel.numberOfLines = 6
         timeSincePostedLabel.text = "13 days ago"
         
 
