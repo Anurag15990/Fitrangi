@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdventureAboutHeader" customModule="Fitrangi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXs-b0-Ihl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaE-rz-01V">
+                            <rect key="frame" x="8" y="9" width="44" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="kNr-bV-5T8"/>
+                                <constraint firstAttribute="height" constant="21" id="zeB-lH-szC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="18"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.90087890625" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="LaE-rz-01V" firstAttribute="leading" secondItem="OXs-b0-Ihl" secondAttribute="leading" constant="8" id="3V4-Cv-uyV"/>
+                        <constraint firstItem="LaE-rz-01V" firstAttribute="top" secondItem="OXs-b0-Ihl" secondAttribute="top" constant="9" id="kHf-wz-z2k"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="OXs-b0-Ihl" secondAttribute="trailing" id="2dE-KI-bvc"/>
+                <constraint firstItem="OXs-b0-Ihl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YqZ-Hx-eJR"/>
+                <constraint firstItem="OXs-b0-Ihl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hds-ck-toD"/>
+                <constraint firstAttribute="bottom" secondItem="OXs-b0-Ihl" secondAttribute="bottom" id="wJr-cg-F5s"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="265" y="615"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -25,6 +25,7 @@ class DiscussionDetailViewController: UIViewController, UITableViewDataSource, U
         closeLabel.addSingleTapGestureRecognizer(target: self, action: "dismissView")
         
         tableView.registerNib(UINib(nibName: "DiscussionDetailCard", bundle: nil), forCellReuseIdentifier: "DiscussionDetailCard")
+        tableView.registerNib(UINib(nibName: "DiscussionDescriptionView", bundle: nil), forHeaderFooterViewReuseIdentifier: "DiscussionDescriptionView")
         tableView.registerNib(UINib(nibName: "CommentsView", bundle: nil), forCellReuseIdentifier: "CommentsView")
         tableView.registerNib(UINib(nibName: "DiscussionDetailHeader", bundle: nil), forHeaderFooterViewReuseIdentifier: "DiscussionDetailHeader")
 
