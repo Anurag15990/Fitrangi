@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StreamUserProfileViewController" customModule="Fitrangi" customModuleProvider="target">
+            <connections>
+                <outlet property="closeLabel" destination="aH0-m2-uYf" id="7dh-IV-gO4"/>
+                <outlet property="logoView" destination="WNJ-cF-R7h" id="JTc-4h-RmV"/>
+                <outlet property="tableView" destination="527-dg-ERg" id="21T-hQ-dQy"/>
+                <outlet property="view" destination="SeZ-xq-a4H" id="83p-cf-A28"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SeZ-xq-a4H">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="527-dg-ERg">
+                    <rect key="frame" x="0.0" y="55" width="320" height="513"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="kg6-4i-W7e"/>
+                        <outlet property="delegate" destination="-1" id="AIU-pk-HBU"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WNJ-cF-R7h" customClass="AsyncImageView" customModule="Fitrangi" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="22" width="99" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="84c-9v-m60"/>
+                        <constraint firstAttribute="width" constant="99" id="T6i-rF-bPq"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aH0-m2-uYf">
+                    <rect key="frame" x="280" y="27" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="oDA-pR-b6a"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="527-dg-ERg" secondAttribute="bottom" id="8Wo-xF-7M6"/>
+                <constraint firstItem="aH0-m2-uYf" firstAttribute="top" secondItem="SeZ-xq-a4H" secondAttribute="top" constant="27" id="PrI-9K-YBX"/>
+                <constraint firstAttribute="trailing" secondItem="527-dg-ERg" secondAttribute="trailing" id="cIn-nQ-cZw"/>
+                <constraint firstItem="WNJ-cF-R7h" firstAttribute="top" secondItem="SeZ-xq-a4H" secondAttribute="top" constant="22" id="gXT-gG-sJX"/>
+                <constraint firstAttribute="trailing" secondItem="aH0-m2-uYf" secondAttribute="trailing" constant="20" id="h2s-YS-chB"/>
+                <constraint firstItem="527-dg-ERg" firstAttribute="leading" secondItem="SeZ-xq-a4H" secondAttribute="leading" id="hmM-He-94Y"/>
+                <constraint firstItem="527-dg-ERg" firstAttribute="top" secondItem="WNJ-cF-R7h" secondAttribute="bottom" id="lFO-NC-Uos"/>
+                <constraint firstItem="527-dg-ERg" firstAttribute="top" secondItem="aH0-m2-uYf" secondAttribute="bottom" constant="8" id="srE-Ue-8wb"/>
+                <constraint firstItem="WNJ-cF-R7h" firstAttribute="leading" secondItem="SeZ-xq-a4H" secondAttribute="leading" id="uQi-nP-yop"/>
+            </constraints>
+            <point key="canvasLocation" x="304" y="324"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

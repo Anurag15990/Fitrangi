@@ -27,7 +27,7 @@ class ArticleDetailCard : UITableViewCell {
         titleLabel.text = "Points To Remember While Trekking In Western Ghats"
         nameLabel.text = "Yuni Fitrangi"
         commentsIconLabel.text = String.fontAwesomeIconWithName("fa-comment-o")
-        commentsIconLabel.font = UIFont.fontAwesomeOfSize(20)
+        commentsIconLabel.font = UIFont.fontAwesomeOfSize(15)
         commentsLabel.text = "0"
         viewsLabel.text = "135 Views"
         timeSincePostedLabel.text = "23 days ago"

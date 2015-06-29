@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="300" id="sMf-on-42R" customClass="ArticleContentView" customModule="Fitrangi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sMf-on-42R" id="ct9-dv-GsY">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apZ-gu-DFx">
+                        <rect key="frame" x="8" y="8" width="304" height="283.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="apZ-gu-DFx" firstAttribute="top" secondItem="ct9-dv-GsY" secondAttribute="top" constant="8" id="aGi-1c-FGQ"/>
+                    <constraint firstAttribute="bottom" secondItem="apZ-gu-DFx" secondAttribute="bottom" constant="8" id="nye-dx-itW"/>
+                    <constraint firstItem="apZ-gu-DFx" firstAttribute="leading" secondItem="ct9-dv-GsY" secondAttribute="leading" constant="8" id="uL5-Ei-Wxy"/>
+                    <constraint firstAttribute="trailing" secondItem="apZ-gu-DFx" secondAttribute="trailing" constant="8" id="wha-97-uM4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="apZ-gu-DFx" id="XS8-B4-E7h"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="270"/>
+        </tableViewCell>
+    </objects>
+</document>

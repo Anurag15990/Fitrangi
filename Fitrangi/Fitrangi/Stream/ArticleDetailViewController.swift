@@ -24,7 +24,7 @@ class ArticleDetailViewController: UIViewController, UITableViewDataSource, UITa
         closeLabel.font = UIFont.fontAwesomeOfSize(20)
         closeLabel.addSingleTapGestureRecognizer(target: self, action: "dismissView")
         
-        tableView.separatorStyle = .None
+        tableView.separatorStyle = UITableViewCellSeparatorStyle.SingleLine
         
         // Do any additional setup after loading the view.
     }

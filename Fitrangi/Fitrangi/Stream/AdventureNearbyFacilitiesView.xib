@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="560" id="bNn-tu-5k1" customClass="AdventureNearbyFacilitiesView" customModule="Fitrangi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="517"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bNn-tu-5k1" id="rMA-ih-EuA">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearby Stay :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNb-oE-HxT">
+                        <rect key="frame" x="8" y="8" width="96" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="EhG-o4-BqX"/>
+                            <constraint firstAttribute="width" constant="96" id="F36-Bb-DUg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ai5-nq-BAJ">
+                        <rect key="frame" x="8" y="37" width="304" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="w7k-n8-tN0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearby Eating Places :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pW1-bR-w2E">
+                        <rect key="frame" x="8" y="165" width="154" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="154" id="WvK-6v-9Lm"/>
+                            <constraint firstAttribute="height" constant="21" id="ulP-Q4-tnG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3S-Zw-bu5">
+                        <rect key="frame" x="8" y="194" width="304" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="P9Z-u0-74c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearby Stations :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spS-13-jd8">
+                        <rect key="frame" x="8" y="322" width="122" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="70h-IO-cGR"/>
+                            <constraint firstAttribute="width" constant="122" id="t4t-S0-KAj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-Cr-ZHv">
+                        <rect key="frame" x="8" y="351" width="304" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="SFz-vq-aW7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearby Airports :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbu-5I-x2l">
+                        <rect key="frame" x="8" y="439" width="122" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="Sbb-xi-jI5"/>
+                            <constraint firstAttribute="height" constant="21" id="hKr-vd-WS6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkC-92-RSA">
+                        <rect key="frame" x="8" y="468" width="304" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Lqt-e1-GTv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="spS-13-jd8" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="1ZG-cM-0KY"/>
+                    <constraint firstAttribute="trailing" secondItem="GkC-92-RSA" secondAttribute="trailing" constant="8" id="3kJ-dx-nYV"/>
+                    <constraint firstAttribute="trailing" secondItem="fxz-Cr-ZHv" secondAttribute="trailing" constant="8" id="ByD-YO-Q7n"/>
+                    <constraint firstItem="Ai5-nq-BAJ" firstAttribute="top" secondItem="GNb-oE-HxT" secondAttribute="bottom" constant="8" id="COR-Jz-iFM"/>
+                    <constraint firstItem="Z3S-Zw-bu5" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="Ho5-Jt-P5F"/>
+                    <constraint firstItem="fxz-Cr-ZHv" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="IyY-hy-eJE"/>
+                    <constraint firstItem="GkC-92-RSA" firstAttribute="top" secondItem="nbu-5I-x2l" secondAttribute="bottom" constant="8" id="Kbp-F8-yDM"/>
+                    <constraint firstAttribute="trailing" secondItem="Ai5-nq-BAJ" secondAttribute="trailing" constant="8" id="Kfe-QD-284"/>
+                    <constraint firstItem="Z3S-Zw-bu5" firstAttribute="top" secondItem="pW1-bR-w2E" secondAttribute="bottom" constant="8" id="LfZ-kd-dWV"/>
+                    <constraint firstItem="Ai5-nq-BAJ" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="Oqw-C3-XM4"/>
+                    <constraint firstItem="pW1-bR-w2E" firstAttribute="top" secondItem="Ai5-nq-BAJ" secondAttribute="bottom" constant="8" id="Sem-6y-z6i"/>
+                    <constraint firstItem="nbu-5I-x2l" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="Tcv-Tw-yZ3"/>
+                    <constraint firstItem="fxz-Cr-ZHv" firstAttribute="top" secondItem="spS-13-jd8" secondAttribute="bottom" constant="8" id="Vvn-9J-CvW"/>
+                    <constraint firstItem="GNb-oE-HxT" firstAttribute="top" secondItem="rMA-ih-EuA" secondAttribute="top" constant="8" id="XtX-z2-Riq"/>
+                    <constraint firstItem="GNb-oE-HxT" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="a5W-KM-OeN"/>
+                    <constraint firstItem="nbu-5I-x2l" firstAttribute="top" secondItem="fxz-Cr-ZHv" secondAttribute="bottom" constant="8" id="knt-is-Igw"/>
+                    <constraint firstAttribute="trailing" secondItem="Z3S-Zw-bu5" secondAttribute="trailing" constant="8" id="lBf-os-Vqn"/>
+                    <constraint firstItem="pW1-bR-w2E" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="oTP-U3-hho"/>
+                    <constraint firstItem="spS-13-jd8" firstAttribute="top" secondItem="Z3S-Zw-bu5" secondAttribute="bottom" constant="8" id="saY-uy-Enn"/>
+                    <constraint firstItem="GkC-92-RSA" firstAttribute="leading" secondItem="rMA-ih-EuA" secondAttribute="leading" constant="8" id="xZr-2M-kg9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nearbyAirportsContentLabel" destination="GkC-92-RSA" id="M99-GR-Enu"/>
+                <outlet property="nearbyAirportsLabel" destination="nbu-5I-x2l" id="znl-Mv-a0x"/>
+                <outlet property="nearbyEatingPlacesContentLabel" destination="Z3S-Zw-bu5" id="P8t-Lj-gjX"/>
+                <outlet property="nearbyEatingPlacesLabel" destination="pW1-bR-w2E" id="Apo-Qq-AQJ"/>
+                <outlet property="nearbyStationsContentLabel" destination="fxz-Cr-ZHv" id="Eqz-cu-KFg"/>
+                <outlet property="nearbyStationsLabel" destination="spS-13-jd8" id="3f2-zl-W57"/>
+                <outlet property="nearbyStayContentLabel" destination="Ai5-nq-BAJ" id="WvT-Xz-CEI"/>
+                <outlet property="nearbyStayLabel" destination="GNb-oE-HxT" id="v8U-IJ-CAA"/>
+            </connections>
+            <point key="canvasLocation" x="250" y="494.5"/>
+        </tableViewCell>
+    </objects>
+</document>

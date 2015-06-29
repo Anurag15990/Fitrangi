@@ -21,11 +21,6 @@
 		75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */; };
 		75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CACB1B281883002BAC09 /* FontAwesome.ttf */; };
 		75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CADE1B281883002BAC09 /* SimpleAutoLayoutView.swift */; };
-		75B4CAFF1B281883002BAC09 /* StreamAdventureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */; };
-		75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */; };
-		75B4CB011B281883002BAC09 /* StreamFollowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */; };
-		75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */; };
-		75B4CB031B281883002BAC09 /* StreamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */; };
 		75B4CB091B281ADF002BAC09 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB081B281ADF002BAC09 /* UIView.swift */; };
 		75B4CB0B1B281BCC002BAC09 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */; };
 		75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */; };
@@ -45,49 +40,64 @@
 		75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */; };
 		75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */; };
 		75BFF5EA1B3596F100340EEC /* UserDefaultsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFF5E91B3596F100340EEC /* UserDefaultsBase.swift */; };
-		E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D662341B3052940069D310 /* StreamArticleCard.xib */; };
-		E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D662381B3056D10069D310 /* StreamArticleCard.swift */; };
-		E0D6B8BE1B329C81001971C3 /* ProfileCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */; };
-		E0D6B8C01B329EC7001971C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */; };
-		E0D6F4AC1B36AC3F007A68F5 /* DiscussionDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F4AB1B36AC3F007A68F5 /* DiscussionDetailView.xib */; };
-		E0D6F4AE1B36AC86007A68F5 /* DiscussionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F4AD1B36AC86007A68F5 /* DiscussionDetailViewController.swift */; };
-		E0D6F8CC1B3AA38A00841777 /* AdventureNearbyFacilitiesHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F8CB1B3AA38A00841777 /* AdventureNearbyFacilitiesHeader.xib */; };
-		E0D6F8CE1B3AA3C400841777 /* AdventureNearbyFacilitiesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F8CD1B3AA3C400841777 /* AdventureNearbyFacilitiesHeader.swift */; };
-		E0D6F8D01B3AA52200841777 /* AdventureReviewsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F8CF1B3AA52200841777 /* AdventureReviewsHeader.xib */; };
-		E0D6F8D21B3AA55000841777 /* AdventureReviewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F8D11B3AA55000841777 /* AdventureReviewsHeader.swift */; };
-		E0D6F8D41B3AA6CD00841777 /* AdventureReviewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F8D31B3AA6CD00841777 /* AdventureReviewsView.xib */; };
-		E0D6F8D61B3AA6F600841777 /* AdventureReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F8D51B3AA6F600841777 /* AdventureReviewsView.swift */; };
-		E0D6F8D81B3AAD2E00841777 /* ArticleDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F8D71B3AAD2E00841777 /* ArticleDetailView.xib */; };
-		E0D6F8DA1B3AAD6700841777 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F8D91B3AAD6700841777 /* ArticleDetailViewController.swift */; };
-		E0D6F8DC1B3AB93500841777 /* ArticleDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F8DB1B3AB93500841777 /* ArticleDetailCard.xib */; };
-		E0D6F8DE1B3AB95600841777 /* ArticleDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6F8DD1B3AB95600841777 /* ArticleDetailCard.swift */; };
+		E0D651071B4162930048E776 /* AdventureHowToReachView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D651061B4162930048E776 /* AdventureHowToReachView.xib */; };
+		E0D651091B4162BD0048E776 /* AdventureHowToReachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */; };
+		E0D6510B1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */; };
+		E0D6510D1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */; };
 		E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */; };
-		E0D7DDDC1B356C9100347C1F /* StreamUserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */; };
-		E0D7DDDE1B356CDB00347C1F /* StreamUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */; };
-		E0D7DDE01B35894800347C1F /* UserProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */; };
-		E0D7DDE21B358B1700347C1F /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */; };
-		E0DC11531B3A94BF009D23E0 /* AdventureAboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DC11521B3A94BF009D23E0 /* AdventureAboutView.xib */; };
-		E0DC11551B3A964C009D23E0 /* AdventureAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC11541B3A964C009D23E0 /* AdventureAboutView.swift */; };
-		E0DC11571B3A977D009D23E0 /* AdventureHowToReachHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DC11561B3A977D009D23E0 /* AdventureHowToReachHeader.xib */; };
-		E0DC11591B3A979C009D23E0 /* AdventureHowToReachHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC11581B3A979C009D23E0 /* AdventureHowToReachHeader.swift */; };
-		E0DC6D171B394E05008D945B /* DiscussionDescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DC6D161B394E05008D945B /* DiscussionDescriptionView.xib */; };
-		E0DC6D191B394E54008D945B /* DiscussionDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6D181B394E54008D945B /* DiscussionDescriptionView.swift */; };
-		E0DC6D1B1B3958BD008D945B /* AdventureDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DC6D1A1B3958BD008D945B /* AdventureDetailView.xib */; };
-		E0DC6D1D1B3958E0008D945B /* AdventureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6D1C1B3958E0008D945B /* AdventureDetailViewController.swift */; };
-		E0DC6D1F1B395BD8008D945B /* AdventureDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DC6D1E1B395BD8008D945B /* AdventureDetailCard.xib */; };
-		E0DC6D211B395BF1008D945B /* AdventureDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC6D201B395BF1008D945B /* AdventureDetailCard.swift */; };
-		E0DDCBFE1B37FAB4005EF14A /* DiscussionDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDCBFD1B37FAB4005EF14A /* DiscussionDetailCard.xib */; };
-		E0DDCC001B37FACF005EF14A /* DiscussionDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDCBFF1B37FACF005EF14A /* DiscussionDetailCard.swift */; };
-		E0DDCC021B381E79005EF14A /* CommentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDCC011B381E79005EF14A /* CommentsView.xib */; };
-		E0DDCC041B381E98005EF14A /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDCC031B381E98005EF14A /* CommentsView.swift */; };
-		E0DDCC061B383A48005EF14A /* DiscussionDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDCC051B383A48005EF14A /* DiscussionDetailHeader.xib */; };
-		E0DDCC081B383A61005EF14A /* DiscussionDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDCC071B383A61005EF14A /* DiscussionDetailHeader.swift */; };
-		E0DDE64F1B39C07900473708 /* AdventureAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDE64E1B39C07900473708 /* AdventureAboutHeader.xib */; };
-		E0DDE6511B39C0D200473708 /* AdventureAboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDE6501B39C0D200473708 /* AdventureAboutHeader.swift */; };
-		E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */; };
-		E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */; };
-		E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */; };
-		E0DE9B421B31963000E37F13 /* StreamActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */; };
+		E0DE0DDB1B41439A006DC165 /* AdventureAboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DCB1B41439A006DC165 /* AdventureAboutHeader.swift */; };
+		E0DE0DDC1B41439A006DC165 /* AdventureAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DCC1B41439A006DC165 /* AdventureAboutHeader.xib */; };
+		E0DE0DDD1B41439A006DC165 /* AdventureAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DCD1B41439A006DC165 /* AdventureAboutView.swift */; };
+		E0DE0DDE1B41439A006DC165 /* AdventureAboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DCE1B41439A006DC165 /* AdventureAboutView.xib */; };
+		E0DE0DDF1B41439A006DC165 /* AdventureDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DCF1B41439A006DC165 /* AdventureDetailCard.swift */; };
+		E0DE0DE01B41439A006DC165 /* AdventureDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DD01B41439A006DC165 /* AdventureDetailCard.xib */; };
+		E0DE0DE11B41439A006DC165 /* AdventureDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DD11B41439A006DC165 /* AdventureDetailView.xib */; };
+		E0DE0DE21B41439A006DC165 /* AdventureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DD21B41439A006DC165 /* AdventureDetailViewController.swift */; };
+		E0DE0DE31B41439A006DC165 /* AdventureHowToReachHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DD31B41439A006DC165 /* AdventureHowToReachHeader.swift */; };
+		E0DE0DE41B41439A006DC165 /* AdventureHowToReachHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DD41B41439A006DC165 /* AdventureHowToReachHeader.xib */; };
+		E0DE0DE51B41439A006DC165 /* AdventureNearbyFacilitiesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DD51B41439A006DC165 /* AdventureNearbyFacilitiesHeader.swift */; };
+		E0DE0DE61B41439A006DC165 /* AdventureNearbyFacilitiesHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DD61B41439A006DC165 /* AdventureNearbyFacilitiesHeader.xib */; };
+		E0DE0DE71B41439A006DC165 /* AdventureReviewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DD71B41439A006DC165 /* AdventureReviewsHeader.swift */; };
+		E0DE0DE81B41439A006DC165 /* AdventureReviewsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DD81B41439A006DC165 /* AdventureReviewsHeader.xib */; };
+		E0DE0DE91B41439A006DC165 /* AdventureReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DD91B41439A006DC165 /* AdventureReviewsView.swift */; };
+		E0DE0DEA1B41439A006DC165 /* AdventureReviewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DDA1B41439A006DC165 /* AdventureReviewsView.xib */; };
+		E0DE0DF11B4143BB006DC165 /* ProfileCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DEB1B4143BA006DC165 /* ProfileCard.xib */; };
+		E0DE0DF21B4143BB006DC165 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DEC1B4143BB006DC165 /* ProfileView.swift */; };
+		E0DE0DF31B4143BB006DC165 /* StreamUserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DED1B4143BB006DC165 /* StreamUserProfileView.xib */; };
+		E0DE0DF41B4143BB006DC165 /* StreamUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DEE1B4143BB006DC165 /* StreamUserProfileViewController.swift */; };
+		E0DE0DF51B4143BB006DC165 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DEF1B4143BB006DC165 /* UserProfileHeader.swift */; };
+		E0DE0DF61B4143BB006DC165 /* UserProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DF01B4143BB006DC165 /* UserProfileHeader.xib */; };
+		E0DE0E011B4143E1006DC165 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DF71B4143E1006DC165 /* CommentsView.swift */; };
+		E0DE0E021B4143E1006DC165 /* CommentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DF81B4143E1006DC165 /* CommentsView.xib */; };
+		E0DE0E031B4143E1006DC165 /* DiscussionDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DF91B4143E1006DC165 /* DiscussionDescriptionView.swift */; };
+		E0DE0E041B4143E1006DC165 /* DiscussionDescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DFA1B4143E1006DC165 /* DiscussionDescriptionView.xib */; };
+		E0DE0E051B4143E1006DC165 /* DiscussionDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DFB1B4143E1006DC165 /* DiscussionDetailCard.swift */; };
+		E0DE0E061B4143E1006DC165 /* DiscussionDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DFC1B4143E1006DC165 /* DiscussionDetailCard.xib */; };
+		E0DE0E071B4143E1006DC165 /* DiscussionDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DFD1B4143E1006DC165 /* DiscussionDetailHeader.swift */; };
+		E0DE0E081B4143E1006DC165 /* DiscussionDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DFE1B4143E1006DC165 /* DiscussionDetailHeader.xib */; };
+		E0DE0E091B4143E1006DC165 /* DiscussionDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DFF1B4143E1006DC165 /* DiscussionDetailView.xib */; };
+		E0DE0E0A1B4143E1006DC165 /* DiscussionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E001B4143E1006DC165 /* DiscussionDetailViewController.swift */; };
+		E0DE0E161B4143F6006DC165 /* StreamActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E0B1B4143F6006DC165 /* StreamActivityCard.swift */; };
+		E0DE0E171B4143F6006DC165 /* StreamActivityCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E0C1B4143F6006DC165 /* StreamActivityCard.xib */; };
+		E0DE0E181B4143F6006DC165 /* StreamAdventureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E0D1B4143F6006DC165 /* StreamAdventureCard.swift */; };
+		E0DE0E191B4143F6006DC165 /* StreamAdventureCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E0E1B4143F6006DC165 /* StreamAdventureCard.xib */; };
+		E0DE0E1A1B4143F6006DC165 /* StreamArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E0F1B4143F6006DC165 /* StreamArticleCard.swift */; };
+		E0DE0E1B1B4143F6006DC165 /* StreamArticleCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E101B4143F6006DC165 /* StreamArticleCard.xib */; };
+		E0DE0E1C1B4143F6006DC165 /* StreamDiscussionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E111B4143F6006DC165 /* StreamDiscussionCard.swift */; };
+		E0DE0E1D1B4143F6006DC165 /* StreamDiscussionCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E121B4143F6006DC165 /* StreamDiscussionCard.xib */; };
+		E0DE0E1E1B4143F6006DC165 /* StreamFollowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E131B4143F6006DC165 /* StreamFollowCard.swift */; };
+		E0DE0E1F1B4143F6006DC165 /* StreamFollowCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E141B4143F6006DC165 /* StreamFollowCard.xib */; };
+		E0DE0E201B4143F6006DC165 /* StreamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E151B4143F6006DC165 /* StreamTableViewController.swift */; };
+		E0DE0E2B1B414450006DC165 /* ArticleCommentsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E211B414450006DC165 /* ArticleCommentsHeaderView.swift */; };
+		E0DE0E2C1B414450006DC165 /* ArticleCommentsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E221B414450006DC165 /* ArticleCommentsHeaderView.xib */; };
+		E0DE0E2D1B414450006DC165 /* ArticleCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E231B414450006DC165 /* ArticleCommentsView.swift */; };
+		E0DE0E2E1B414450006DC165 /* ArticleCommentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E241B414450006DC165 /* ArticleCommentsView.xib */; };
+		E0DE0E2F1B414450006DC165 /* ArticleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E251B414450006DC165 /* ArticleContentView.swift */; };
+		E0DE0E301B414450006DC165 /* ArticleContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E261B414450006DC165 /* ArticleContentView.xib */; };
+		E0DE0E311B414450006DC165 /* ArticleDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E271B414450006DC165 /* ArticleDetailCard.swift */; };
+		E0DE0E321B414450006DC165 /* ArticleDetailCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E281B414450006DC165 /* ArticleDetailCard.xib */; };
+		E0DE0E331B414450006DC165 /* ArticleDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0E291B414450006DC165 /* ArticleDetailView.xib */; };
+		E0DE0E341B414450006DC165 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0E2A1B414450006DC165 /* ArticleDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,11 +130,6 @@
 		75B4CACA1B281883002BAC09 /* LayoutConstraintsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintsFactory.swift; sourceTree = "<group>"; };
 		75B4CACB1B281883002BAC09 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		75B4CADE1B281883002BAC09 /* SimpleAutoLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleAutoLayoutView.swift; path = ../../SimpleAutoLayoutView.swift; sourceTree = "<group>"; };
-		75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAdventureCard.swift; sourceTree = "<group>"; };
-		75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamAdventureCard.xib; sourceTree = "<group>"; };
-		75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamFollowCard.swift; sourceTree = "<group>"; };
-		75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamFollowCard.xib; sourceTree = "<group>"; };
-		75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTableViewController.swift; sourceTree = "<group>"; };
 		75B4CB081B281ADF002BAC09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		75B4CB0A1B281BCC002BAC09 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		75B4CB0C1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewObjectiveCBridge.m; sourceTree = "<group>"; };
@@ -161,49 +166,64 @@
 		75B4CB5B1B300B29002BAC09 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		75B4CB721B3055CC002BAC09 /* WebRequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestExecutor.swift; sourceTree = "<group>"; };
 		75BFF5E91B3596F100340EEC /* UserDefaultsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsBase.swift; sourceTree = "<group>"; };
-		E0D662341B3052940069D310 /* StreamArticleCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamArticleCard.xib; sourceTree = "<group>"; };
-		E0D662381B3056D10069D310 /* StreamArticleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamArticleCard.swift; sourceTree = "<group>"; };
-		E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCard.xib; sourceTree = "<group>"; };
-		E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		E0D6F4AB1B36AC3F007A68F5 /* DiscussionDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussionDetailView.xib; sourceTree = "<group>"; };
-		E0D6F4AD1B36AC86007A68F5 /* DiscussionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionDetailViewController.swift; sourceTree = "<group>"; };
-		E0D6F8CB1B3AA38A00841777 /* AdventureNearbyFacilitiesHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureNearbyFacilitiesHeader.xib; sourceTree = "<group>"; };
-		E0D6F8CD1B3AA3C400841777 /* AdventureNearbyFacilitiesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureNearbyFacilitiesHeader.swift; sourceTree = "<group>"; };
-		E0D6F8CF1B3AA52200841777 /* AdventureReviewsHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureReviewsHeader.xib; sourceTree = "<group>"; };
-		E0D6F8D11B3AA55000841777 /* AdventureReviewsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureReviewsHeader.swift; sourceTree = "<group>"; };
-		E0D6F8D31B3AA6CD00841777 /* AdventureReviewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureReviewsView.xib; sourceTree = "<group>"; };
-		E0D6F8D51B3AA6F600841777 /* AdventureReviewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureReviewsView.swift; sourceTree = "<group>"; };
-		E0D6F8D71B3AAD2E00841777 /* ArticleDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailView.xib; sourceTree = "<group>"; };
-		E0D6F8D91B3AAD6700841777 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
-		E0D6F8DB1B3AB93500841777 /* ArticleDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailCard.xib; sourceTree = "<group>"; };
-		E0D6F8DD1B3AB95600841777 /* ArticleDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailCard.swift; sourceTree = "<group>"; };
+		E0D651061B4162930048E776 /* AdventureHowToReachView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureHowToReachView.xib; sourceTree = "<group>"; };
+		E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureHowToReachView.swift; sourceTree = "<group>"; };
+		E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureNearbyFacilitiesView.xib; sourceTree = "<group>"; };
+		E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureNearbyFacilitiesView.swift; sourceTree = "<group>"; };
 		E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamUserProfileView.xib; sourceTree = "<group>"; };
-		E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamUserProfileViewController.swift; sourceTree = "<group>"; };
-		E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileHeader.xib; sourceTree = "<group>"; };
-		E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
-		E0DC11521B3A94BF009D23E0 /* AdventureAboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureAboutView.xib; sourceTree = "<group>"; };
-		E0DC11541B3A964C009D23E0 /* AdventureAboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureAboutView.swift; sourceTree = "<group>"; };
-		E0DC11561B3A977D009D23E0 /* AdventureHowToReachHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureHowToReachHeader.xib; sourceTree = "<group>"; };
-		E0DC11581B3A979C009D23E0 /* AdventureHowToReachHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureHowToReachHeader.swift; sourceTree = "<group>"; };
-		E0DC6D161B394E05008D945B /* DiscussionDescriptionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussionDescriptionView.xib; sourceTree = "<group>"; };
-		E0DC6D181B394E54008D945B /* DiscussionDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionDescriptionView.swift; sourceTree = "<group>"; };
-		E0DC6D1A1B3958BD008D945B /* AdventureDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureDetailView.xib; sourceTree = "<group>"; };
-		E0DC6D1C1B3958E0008D945B /* AdventureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureDetailViewController.swift; sourceTree = "<group>"; };
-		E0DC6D1E1B395BD8008D945B /* AdventureDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureDetailCard.xib; sourceTree = "<group>"; };
-		E0DC6D201B395BF1008D945B /* AdventureDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureDetailCard.swift; sourceTree = "<group>"; };
-		E0DDCBFD1B37FAB4005EF14A /* DiscussionDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussionDetailCard.xib; sourceTree = "<group>"; };
-		E0DDCBFF1B37FACF005EF14A /* DiscussionDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionDetailCard.swift; sourceTree = "<group>"; };
-		E0DDCC011B381E79005EF14A /* CommentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsView.xib; sourceTree = "<group>"; };
-		E0DDCC031B381E98005EF14A /* CommentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
-		E0DDCC051B383A48005EF14A /* DiscussionDetailHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussionDetailHeader.xib; sourceTree = "<group>"; };
-		E0DDCC071B383A61005EF14A /* DiscussionDetailHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionDetailHeader.swift; sourceTree = "<group>"; };
-		E0DDE64E1B39C07900473708 /* AdventureAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureAboutHeader.xib; sourceTree = "<group>"; };
-		E0DDE6501B39C0D200473708 /* AdventureAboutHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureAboutHeader.swift; sourceTree = "<group>"; };
-		E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamDiscussionCard.xib; sourceTree = "<group>"; };
-		E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamDiscussionCard.swift; sourceTree = "<group>"; };
-		E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamActivityCard.xib; sourceTree = "<group>"; };
-		E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamActivityCard.swift; sourceTree = "<group>"; };
+		E0DE0DCB1B41439A006DC165 /* AdventureAboutHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureAboutHeader.swift; path = AdventureDetails/AdventureAboutHeader.swift; sourceTree = "<group>"; };
+		E0DE0DCC1B41439A006DC165 /* AdventureAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureAboutHeader.xib; path = AdventureDetails/AdventureAboutHeader.xib; sourceTree = "<group>"; };
+		E0DE0DCD1B41439A006DC165 /* AdventureAboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureAboutView.swift; path = AdventureDetails/AdventureAboutView.swift; sourceTree = "<group>"; };
+		E0DE0DCE1B41439A006DC165 /* AdventureAboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureAboutView.xib; path = AdventureDetails/AdventureAboutView.xib; sourceTree = "<group>"; };
+		E0DE0DCF1B41439A006DC165 /* AdventureDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureDetailCard.swift; path = AdventureDetails/AdventureDetailCard.swift; sourceTree = "<group>"; };
+		E0DE0DD01B41439A006DC165 /* AdventureDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureDetailCard.xib; path = AdventureDetails/AdventureDetailCard.xib; sourceTree = "<group>"; };
+		E0DE0DD11B41439A006DC165 /* AdventureDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureDetailView.xib; path = AdventureDetails/AdventureDetailView.xib; sourceTree = "<group>"; };
+		E0DE0DD21B41439A006DC165 /* AdventureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureDetailViewController.swift; path = AdventureDetails/AdventureDetailViewController.swift; sourceTree = "<group>"; };
+		E0DE0DD31B41439A006DC165 /* AdventureHowToReachHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureHowToReachHeader.swift; path = AdventureDetails/AdventureHowToReachHeader.swift; sourceTree = "<group>"; };
+		E0DE0DD41B41439A006DC165 /* AdventureHowToReachHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureHowToReachHeader.xib; path = AdventureDetails/AdventureHowToReachHeader.xib; sourceTree = "<group>"; };
+		E0DE0DD51B41439A006DC165 /* AdventureNearbyFacilitiesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureNearbyFacilitiesHeader.swift; path = AdventureDetails/AdventureNearbyFacilitiesHeader.swift; sourceTree = "<group>"; };
+		E0DE0DD61B41439A006DC165 /* AdventureNearbyFacilitiesHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureNearbyFacilitiesHeader.xib; path = AdventureDetails/AdventureNearbyFacilitiesHeader.xib; sourceTree = "<group>"; };
+		E0DE0DD71B41439A006DC165 /* AdventureReviewsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureReviewsHeader.swift; path = AdventureDetails/AdventureReviewsHeader.swift; sourceTree = "<group>"; };
+		E0DE0DD81B41439A006DC165 /* AdventureReviewsHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureReviewsHeader.xib; path = AdventureDetails/AdventureReviewsHeader.xib; sourceTree = "<group>"; };
+		E0DE0DD91B41439A006DC165 /* AdventureReviewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureReviewsView.swift; path = AdventureDetails/AdventureReviewsView.swift; sourceTree = "<group>"; };
+		E0DE0DDA1B41439A006DC165 /* AdventureReviewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureReviewsView.xib; path = AdventureDetails/AdventureReviewsView.xib; sourceTree = "<group>"; };
+		E0DE0DEB1B4143BA006DC165 /* ProfileCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileCard.xib; path = UserProfile/ProfileCard.xib; sourceTree = "<group>"; };
+		E0DE0DEC1B4143BB006DC165 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = UserProfile/ProfileView.swift; sourceTree = "<group>"; };
+		E0DE0DED1B4143BB006DC165 /* StreamUserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamUserProfileView.xib; path = UserProfile/StreamUserProfileView.xib; sourceTree = "<group>"; };
+		E0DE0DEE1B4143BB006DC165 /* StreamUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamUserProfileViewController.swift; path = UserProfile/StreamUserProfileViewController.swift; sourceTree = "<group>"; };
+		E0DE0DEF1B4143BB006DC165 /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileHeader.swift; path = UserProfile/UserProfileHeader.swift; sourceTree = "<group>"; };
+		E0DE0DF01B4143BB006DC165 /* UserProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserProfileHeader.xib; path = UserProfile/UserProfileHeader.xib; sourceTree = "<group>"; };
+		E0DE0DF71B4143E1006DC165 /* CommentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentsView.swift; path = DiscussionDetails/CommentsView.swift; sourceTree = "<group>"; };
+		E0DE0DF81B4143E1006DC165 /* CommentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommentsView.xib; path = DiscussionDetails/CommentsView.xib; sourceTree = "<group>"; };
+		E0DE0DF91B4143E1006DC165 /* DiscussionDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscussionDescriptionView.swift; path = DiscussionDetails/DiscussionDescriptionView.swift; sourceTree = "<group>"; };
+		E0DE0DFA1B4143E1006DC165 /* DiscussionDescriptionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscussionDescriptionView.xib; path = DiscussionDetails/DiscussionDescriptionView.xib; sourceTree = "<group>"; };
+		E0DE0DFB1B4143E1006DC165 /* DiscussionDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscussionDetailCard.swift; path = DiscussionDetails/DiscussionDetailCard.swift; sourceTree = "<group>"; };
+		E0DE0DFC1B4143E1006DC165 /* DiscussionDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscussionDetailCard.xib; path = DiscussionDetails/DiscussionDetailCard.xib; sourceTree = "<group>"; };
+		E0DE0DFD1B4143E1006DC165 /* DiscussionDetailHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscussionDetailHeader.swift; path = DiscussionDetails/DiscussionDetailHeader.swift; sourceTree = "<group>"; };
+		E0DE0DFE1B4143E1006DC165 /* DiscussionDetailHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscussionDetailHeader.xib; path = DiscussionDetails/DiscussionDetailHeader.xib; sourceTree = "<group>"; };
+		E0DE0DFF1B4143E1006DC165 /* DiscussionDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscussionDetailView.xib; path = DiscussionDetails/DiscussionDetailView.xib; sourceTree = "<group>"; };
+		E0DE0E001B4143E1006DC165 /* DiscussionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscussionDetailViewController.swift; path = DiscussionDetails/DiscussionDetailViewController.swift; sourceTree = "<group>"; };
+		E0DE0E0B1B4143F6006DC165 /* StreamActivityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamActivityCard.swift; path = StreamCards/StreamActivityCard.swift; sourceTree = "<group>"; };
+		E0DE0E0C1B4143F6006DC165 /* StreamActivityCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamActivityCard.xib; path = StreamCards/StreamActivityCard.xib; sourceTree = "<group>"; };
+		E0DE0E0D1B4143F6006DC165 /* StreamAdventureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamAdventureCard.swift; path = StreamCards/StreamAdventureCard.swift; sourceTree = "<group>"; };
+		E0DE0E0E1B4143F6006DC165 /* StreamAdventureCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamAdventureCard.xib; path = StreamCards/StreamAdventureCard.xib; sourceTree = "<group>"; };
+		E0DE0E0F1B4143F6006DC165 /* StreamArticleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamArticleCard.swift; path = StreamCards/StreamArticleCard.swift; sourceTree = "<group>"; };
+		E0DE0E101B4143F6006DC165 /* StreamArticleCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamArticleCard.xib; path = StreamCards/StreamArticleCard.xib; sourceTree = "<group>"; };
+		E0DE0E111B4143F6006DC165 /* StreamDiscussionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamDiscussionCard.swift; path = StreamCards/StreamDiscussionCard.swift; sourceTree = "<group>"; };
+		E0DE0E121B4143F6006DC165 /* StreamDiscussionCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamDiscussionCard.xib; path = StreamCards/StreamDiscussionCard.xib; sourceTree = "<group>"; };
+		E0DE0E131B4143F6006DC165 /* StreamFollowCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamFollowCard.swift; path = StreamCards/StreamFollowCard.swift; sourceTree = "<group>"; };
+		E0DE0E141B4143F6006DC165 /* StreamFollowCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamFollowCard.xib; path = StreamCards/StreamFollowCard.xib; sourceTree = "<group>"; };
+		E0DE0E151B4143F6006DC165 /* StreamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamTableViewController.swift; path = StreamCards/StreamTableViewController.swift; sourceTree = "<group>"; };
+		E0DE0E211B414450006DC165 /* ArticleCommentsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleCommentsHeaderView.swift; path = ArticleDetails/ArticleCommentsHeaderView.swift; sourceTree = "<group>"; };
+		E0DE0E221B414450006DC165 /* ArticleCommentsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArticleCommentsHeaderView.xib; path = ArticleDetails/ArticleCommentsHeaderView.xib; sourceTree = "<group>"; };
+		E0DE0E231B414450006DC165 /* ArticleCommentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleCommentsView.swift; path = ArticleDetails/ArticleCommentsView.swift; sourceTree = "<group>"; };
+		E0DE0E241B414450006DC165 /* ArticleCommentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArticleCommentsView.xib; path = ArticleDetails/ArticleCommentsView.xib; sourceTree = "<group>"; };
+		E0DE0E251B414450006DC165 /* ArticleContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleContentView.swift; path = ArticleDetails/ArticleContentView.swift; sourceTree = "<group>"; };
+		E0DE0E261B414450006DC165 /* ArticleContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArticleContentView.xib; path = ArticleDetails/ArticleContentView.xib; sourceTree = "<group>"; };
+		E0DE0E271B414450006DC165 /* ArticleDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleDetailCard.swift; path = ArticleDetails/ArticleDetailCard.swift; sourceTree = "<group>"; };
+		E0DE0E281B414450006DC165 /* ArticleDetailCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArticleDetailCard.xib; path = ArticleDetails/ArticleDetailCard.xib; sourceTree = "<group>"; };
+		E0DE0E291B414450006DC165 /* ArticleDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArticleDetailView.xib; path = ArticleDetails/ArticleDetailView.xib; sourceTree = "<group>"; };
+		E0DE0E2A1B414450006DC165 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleDetailViewController.swift; path = ArticleDetails/ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		E8AE279A848C1B2B6A73F743 /* Pods-Fitrangi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitrangi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitrangi/Pods-Fitrangi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -335,54 +355,64 @@
 		75B4CADF1B281883002BAC09 /* Stream */ = {
 			isa = PBXGroup;
 			children = (
-				E0D662381B3056D10069D310 /* StreamArticleCard.swift */,
-				75B4CAE01B281883002BAC09 /* StreamAdventureCard.swift */,
-				75B4CAE11B281883002BAC09 /* StreamAdventureCard.xib */,
-				75B4CAE21B281883002BAC09 /* StreamFollowCard.swift */,
-				75B4CAE31B281883002BAC09 /* StreamFollowCard.xib */,
-				75B4CAE41B281883002BAC09 /* StreamTableViewController.swift */,
-				E0D662341B3052940069D310 /* StreamArticleCard.xib */,
-				E0DE9B3B1B31553A00E37F13 /* StreamDiscussionCard.xib */,
-				E0DE9B3D1B31569400E37F13 /* StreamDiscussionCard.swift */,
-				E0DE9B3F1B3195EA00E37F13 /* StreamActivityCard.xib */,
+				E0DE0E211B414450006DC165 /* ArticleCommentsHeaderView.swift */,
+				E0DE0E221B414450006DC165 /* ArticleCommentsHeaderView.xib */,
+				E0DE0E231B414450006DC165 /* ArticleCommentsView.swift */,
+				E0DE0E241B414450006DC165 /* ArticleCommentsView.xib */,
+				E0DE0E251B414450006DC165 /* ArticleContentView.swift */,
+				E0DE0E261B414450006DC165 /* ArticleContentView.xib */,
+				E0DE0E271B414450006DC165 /* ArticleDetailCard.swift */,
+				E0DE0E281B414450006DC165 /* ArticleDetailCard.xib */,
+				E0DE0DEB1B4143BA006DC165 /* ProfileCard.xib */,
+				E0DE0E291B414450006DC165 /* ArticleDetailView.xib */,
+				E0DE0E2A1B414450006DC165 /* ArticleDetailViewController.swift */,
+				E0DE0DCB1B41439A006DC165 /* AdventureAboutHeader.swift */,
+				E0DE0DCC1B41439A006DC165 /* AdventureAboutHeader.xib */,
+				E0DE0DCD1B41439A006DC165 /* AdventureAboutView.swift */,
+				E0DE0DCE1B41439A006DC165 /* AdventureAboutView.xib */,
+				E0DE0DCF1B41439A006DC165 /* AdventureDetailCard.swift */,
+				E0DE0DD01B41439A006DC165 /* AdventureDetailCard.xib */,
+				E0DE0DD11B41439A006DC165 /* AdventureDetailView.xib */,
+				E0DE0DD21B41439A006DC165 /* AdventureDetailViewController.swift */,
+				E0DE0DD31B41439A006DC165 /* AdventureHowToReachHeader.swift */,
+				E0DE0DD41B41439A006DC165 /* AdventureHowToReachHeader.xib */,
+				E0DE0DD51B41439A006DC165 /* AdventureNearbyFacilitiesHeader.swift */,
+				E0DE0DD61B41439A006DC165 /* AdventureNearbyFacilitiesHeader.xib */,
+				E0DE0DD71B41439A006DC165 /* AdventureReviewsHeader.swift */,
+				E0DE0DEC1B4143BB006DC165 /* ProfileView.swift */,
+				E0DE0DED1B4143BB006DC165 /* StreamUserProfileView.xib */,
+				E0DE0DEE1B4143BB006DC165 /* StreamUserProfileViewController.swift */,
+				E0DE0DEF1B4143BB006DC165 /* UserProfileHeader.swift */,
+				E0DE0DF71B4143E1006DC165 /* CommentsView.swift */,
+				E0DE0DF81B4143E1006DC165 /* CommentsView.xib */,
+				E0DE0DF91B4143E1006DC165 /* DiscussionDescriptionView.swift */,
+				E0DE0DFA1B4143E1006DC165 /* DiscussionDescriptionView.xib */,
+				E0DE0DFB1B4143E1006DC165 /* DiscussionDetailCard.swift */,
+				E0DE0DFC1B4143E1006DC165 /* DiscussionDetailCard.xib */,
+				E0DE0DFD1B4143E1006DC165 /* DiscussionDetailHeader.swift */,
+				E0DE0DFE1B4143E1006DC165 /* DiscussionDetailHeader.xib */,
+				E0DE0DFF1B4143E1006DC165 /* DiscussionDetailView.xib */,
+				E0DE0E001B4143E1006DC165 /* DiscussionDetailViewController.swift */,
+				E0DE0DF01B4143BB006DC165 /* UserProfileHeader.xib */,
+				E0DE0DD81B41439A006DC165 /* AdventureReviewsHeader.xib */,
+				E0DE0DD91B41439A006DC165 /* AdventureReviewsView.swift */,
+				E0DE0E0B1B4143F6006DC165 /* StreamActivityCard.swift */,
+				E0DE0E0C1B4143F6006DC165 /* StreamActivityCard.xib */,
+				E0DE0E0D1B4143F6006DC165 /* StreamAdventureCard.swift */,
+				E0DE0E0E1B4143F6006DC165 /* StreamAdventureCard.xib */,
+				E0DE0E0F1B4143F6006DC165 /* StreamArticleCard.swift */,
+				E0DE0E101B4143F6006DC165 /* StreamArticleCard.xib */,
+				E0DE0E111B4143F6006DC165 /* StreamDiscussionCard.swift */,
+				E0DE0E121B4143F6006DC165 /* StreamDiscussionCard.xib */,
+				E0DE0E131B4143F6006DC165 /* StreamFollowCard.swift */,
+				E0DE0E141B4143F6006DC165 /* StreamFollowCard.xib */,
+				E0DE0E151B4143F6006DC165 /* StreamTableViewController.swift */,
+				E0DE0DDA1B41439A006DC165 /* AdventureReviewsView.xib */,
 				E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */,
-				E0DE9B411B31963000E37F13 /* StreamActivityCard.swift */,
-				E0D6B8BD1B329C81001971C3 /* ProfileCard.xib */,
-				E0D6B8BF1B329EC7001971C3 /* ProfileView.swift */,
-				E0D7DDDB1B356C9100347C1F /* StreamUserProfileView.xib */,
-				E0D7DDDD1B356CDB00347C1F /* StreamUserProfileViewController.swift */,
-				E0D7DDDF1B35894800347C1F /* UserProfileHeader.xib */,
-				E0D7DDE11B358B1700347C1F /* UserProfileHeader.swift */,
-				E0D6F4AB1B36AC3F007A68F5 /* DiscussionDetailView.xib */,
-				E0D6F4AD1B36AC86007A68F5 /* DiscussionDetailViewController.swift */,
-				E0DDCBFD1B37FAB4005EF14A /* DiscussionDetailCard.xib */,
-				E0DDCBFF1B37FACF005EF14A /* DiscussionDetailCard.swift */,
-				E0DDCC011B381E79005EF14A /* CommentsView.xib */,
-				E0DDCC031B381E98005EF14A /* CommentsView.swift */,
-				E0DDCC051B383A48005EF14A /* DiscussionDetailHeader.xib */,
-				E0DDCC071B383A61005EF14A /* DiscussionDetailHeader.swift */,
-				E0DC6D161B394E05008D945B /* DiscussionDescriptionView.xib */,
-				E0DC6D181B394E54008D945B /* DiscussionDescriptionView.swift */,
-				E0DC6D1A1B3958BD008D945B /* AdventureDetailView.xib */,
-				E0DC6D1C1B3958E0008D945B /* AdventureDetailViewController.swift */,
-				E0DC6D1E1B395BD8008D945B /* AdventureDetailCard.xib */,
-				E0DC6D201B395BF1008D945B /* AdventureDetailCard.swift */,
-				E0DDE64E1B39C07900473708 /* AdventureAboutHeader.xib */,
-				E0DDE6501B39C0D200473708 /* AdventureAboutHeader.swift */,
-				E0DC11521B3A94BF009D23E0 /* AdventureAboutView.xib */,
-				E0DC11541B3A964C009D23E0 /* AdventureAboutView.swift */,
-				E0DC11561B3A977D009D23E0 /* AdventureHowToReachHeader.xib */,
-				E0DC11581B3A979C009D23E0 /* AdventureHowToReachHeader.swift */,
-				E0D6F8CB1B3AA38A00841777 /* AdventureNearbyFacilitiesHeader.xib */,
-				E0D6F8CD1B3AA3C400841777 /* AdventureNearbyFacilitiesHeader.swift */,
-				E0D6F8CF1B3AA52200841777 /* AdventureReviewsHeader.xib */,
-				E0D6F8D11B3AA55000841777 /* AdventureReviewsHeader.swift */,
-				E0D6F8D31B3AA6CD00841777 /* AdventureReviewsView.xib */,
-				E0D6F8D51B3AA6F600841777 /* AdventureReviewsView.swift */,
-				E0D6F8D71B3AAD2E00841777 /* ArticleDetailView.xib */,
-				E0D6F8D91B3AAD6700841777 /* ArticleDetailViewController.swift */,
-				E0D6F8DB1B3AB93500841777 /* ArticleDetailCard.xib */,
-				E0D6F8DD1B3AB95600841777 /* ArticleDetailCard.swift */,
+				E0D651061B4162930048E776 /* AdventureHowToReachView.xib */,
+				E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */,
+				E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */,
+				E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */,
 			);
 			path = Stream;
 			sourceTree = "<group>";
@@ -524,33 +554,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D6F8DC1B3AB93500841777 /* ArticleDetailCard.xib in Resources */,
-				E0DC6D1B1B3958BD008D945B /* AdventureDetailView.xib in Resources */,
-				75B4CB021B281883002BAC09 /* StreamFollowCard.xib in Resources */,
-				E0D662351B3052940069D310 /* StreamArticleCard.xib in Resources */,
+				E0DE0E041B4143E1006DC165 /* DiscussionDescriptionView.xib in Resources */,
+				E0DE0E021B4143E1006DC165 /* CommentsView.xib in Resources */,
+				E0DE0E2C1B414450006DC165 /* ArticleCommentsHeaderView.xib in Resources */,
+				E0DE0DF11B4143BB006DC165 /* ProfileCard.xib in Resources */,
+				E0DE0DE01B41439A006DC165 /* AdventureDetailCard.xib in Resources */,
+				E0DE0DDC1B41439A006DC165 /* AdventureAboutHeader.xib in Resources */,
+				E0DE0DDE1B41439A006DC165 /* AdventureAboutView.xib in Resources */,
+				E0DE0E091B4143E1006DC165 /* DiscussionDetailView.xib in Resources */,
+				E0DE0DE11B41439A006DC165 /* AdventureDetailView.xib in Resources */,
+				E0DE0DF31B4143BB006DC165 /* StreamUserProfileView.xib in Resources */,
 				75B4CAA61B281788002BAC09 /* Main.storyboard in Resources */,
-				E0D6F8D81B3AAD2E00841777 /* ArticleDetailView.xib in Resources */,
-				E0D6F8CC1B3AA38A00841777 /* AdventureNearbyFacilitiesHeader.xib in Resources */,
-				E0D7DDE01B35894800347C1F /* UserProfileHeader.xib in Resources */,
-				E0DDCBFE1B37FAB4005EF14A /* DiscussionDetailCard.xib in Resources */,
-				E0DC6D171B394E05008D945B /* DiscussionDescriptionView.xib in Resources */,
-				E0DC11571B3A977D009D23E0 /* AdventureHowToReachHeader.xib in Resources */,
-				E0DC11531B3A94BF009D23E0 /* AdventureAboutView.xib in Resources */,
-				E0D6B8BE1B329C81001971C3 /* ProfileCard.xib in Resources */,
-				E0DDCC021B381E79005EF14A /* CommentsView.xib in Resources */,
-				E0DE9B3C1B31553A00E37F13 /* StreamDiscussionCard.xib in Resources */,
-				75B4CB001B281883002BAC09 /* StreamAdventureCard.xib in Resources */,
-				E0DDE64F1B39C07900473708 /* AdventureAboutHeader.xib in Resources */,
-				E0D6F8D01B3AA52200841777 /* AdventureReviewsHeader.xib in Resources */,
+				E0D6510B1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib in Resources */,
+				E0DE0E171B4143F6006DC165 /* StreamActivityCard.xib in Resources */,
+				E0DE0E2E1B414450006DC165 /* ArticleCommentsView.xib in Resources */,
+				E0DE0DF61B4143BB006DC165 /* UserProfileHeader.xib in Resources */,
+				E0DE0E331B414450006DC165 /* ArticleDetailView.xib in Resources */,
+				E0DE0E321B414450006DC165 /* ArticleDetailCard.xib in Resources */,
+				E0DE0E1D1B4143F6006DC165 /* StreamDiscussionCard.xib in Resources */,
+				E0DE0DE61B41439A006DC165 /* AdventureNearbyFacilitiesHeader.xib in Resources */,
+				E0D651071B4162930048E776 /* AdventureHowToReachView.xib in Resources */,
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
-				E0DE9B401B3195EA00E37F13 /* StreamActivityCard.xib in Resources */,
-				E0D6F8D41B3AA6CD00841777 /* AdventureReviewsView.xib in Resources */,
-				E0DC6D1F1B395BD8008D945B /* AdventureDetailCard.xib in Resources */,
-				E0DDCC061B383A48005EF14A /* DiscussionDetailHeader.xib in Resources */,
-				E0D7DDDC1B356C9100347C1F /* StreamUserProfileView.xib in Resources */,
+				E0DE0E1B1B4143F6006DC165 /* StreamArticleCard.xib in Resources */,
 				75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */,
-				E0D6F4AC1B36AC3F007A68F5 /* DiscussionDetailView.xib in Resources */,
+				E0DE0E191B4143F6006DC165 /* StreamAdventureCard.xib in Resources */,
+				E0DE0E061B4143E1006DC165 /* DiscussionDetailCard.xib in Resources */,
+				E0DE0E301B414450006DC165 /* ArticleContentView.xib in Resources */,
+				E0DE0E081B4143E1006DC165 /* DiscussionDetailHeader.xib in Resources */,
+				E0DE0DEA1B41439A006DC165 /* AdventureReviewsView.xib in Resources */,
 				75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */,
+				E0DE0DE41B41439A006DC165 /* AdventureHowToReachHeader.xib in Resources */,
+				E0DE0E1F1B4143F6006DC165 /* StreamFollowCard.xib in Resources */,
+				E0DE0DE81B41439A006DC165 /* AdventureReviewsHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,57 +652,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B4CB091B281ADF002BAC09 /* UIView.swift in Sources */,
-				E0DDCC001B37FACF005EF14A /* DiscussionDetailCard.swift in Sources */,
-				E0D6F8D21B3AA55000841777 /* AdventureReviewsHeader.swift in Sources */,
-				E0D6F8DE1B3AB95600841777 /* ArticleDetailCard.swift in Sources */,
 				75B4CB0B1B281BCC002BAC09 /* UIImageView.swift in Sources */,
-				E0D6F4AE1B36AC86007A68F5 /* DiscussionDetailViewController.swift in Sources */,
-				75B4CB031B281883002BAC09 /* StreamTableViewController.swift in Sources */,
-				E0D7DDE21B358B1700347C1F /* UserProfileHeader.swift in Sources */,
+				E0DE0E011B4143E1006DC165 /* CommentsView.swift in Sources */,
 				75B4CAFE1B281883002BAC09 /* SimpleAutoLayoutView.swift in Sources */,
-				E0DC6D191B394E54008D945B /* DiscussionDescriptionView.swift in Sources */,
 				75B4CB0D1B281D9F002BAC09 /* UIImageViewObjectiveCBridge.m in Sources */,
+				E0DE0E1E1B4143F6006DC165 /* StreamFollowCard.swift in Sources */,
+				E0DE0DE91B41439A006DC165 /* AdventureReviewsView.swift in Sources */,
+				E0DE0E071B4143E1006DC165 /* DiscussionDetailHeader.swift in Sources */,
+				E0DE0E0A1B4143E1006DC165 /* DiscussionDetailViewController.swift in Sources */,
 				75B4CAF41B281883002BAC09 /* LayoutConstraintsFactory.swift in Sources */,
-				E0DE9B421B31963000E37F13 /* StreamActivityCard.swift in Sources */,
+				E0D6510D1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift in Sources */,
+				E0DE0DE51B41439A006DC165 /* AdventureNearbyFacilitiesHeader.swift in Sources */,
+				E0DE0E201B4143F6006DC165 /* StreamTableViewController.swift in Sources */,
 				75BFF5EA1B3596F100340EEC /* UserDefaultsBase.swift in Sources */,
 				75B4CB611B300B29002BAC09 /* SDWebImageDownloaderOperation.m in Sources */,
-				75B4CB011B281883002BAC09 /* StreamFollowCard.swift in Sources */,
+				E0DE0DF51B4143BB006DC165 /* UserProfileHeader.swift in Sources */,
 				75B4CB5D1B300B29002BAC09 /* SDImageCache.m in Sources */,
-				E0DC6D211B395BF1008D945B /* AdventureDetailCard.swift in Sources */,
 				75B4CAEF1B281883002BAC09 /* Async.swift in Sources */,
+				E0DE0E181B4143F6006DC165 /* StreamAdventureCard.swift in Sources */,
+				E0DE0DE21B41439A006DC165 /* AdventureDetailViewController.swift in Sources */,
 				75B4CA9F1B281788002BAC09 /* AppDelegate.swift in Sources */,
+				E0DE0E1A1B4143F6006DC165 /* StreamArticleCard.swift in Sources */,
 				75B4CAF11B281883002BAC09 /* CustomView.swift in Sources */,
 				75B4CB671B300B29002BAC09 /* UIImageView+HighlightedWebCache.m in Sources */,
+				E0DE0E2F1B414450006DC165 /* ArticleContentView.swift in Sources */,
+				E0DE0E2B1B414450006DC165 /* ArticleCommentsHeaderView.swift in Sources */,
 				75B4CB5E1B300B29002BAC09 /* SDWebImageCompat.m in Sources */,
-				E0D6F8CE1B3AA3C400841777 /* AdventureNearbyFacilitiesHeader.swift in Sources */,
-				E0DC11551B3A964C009D23E0 /* AdventureAboutView.swift in Sources */,
-				E0DE9B3E1B31569400E37F13 /* StreamDiscussionCard.swift in Sources */,
+				E0DE0E051B4143E1006DC165 /* DiscussionDetailCard.swift in Sources */,
+				E0DE0DDD1B41439A006DC165 /* AdventureAboutView.swift in Sources */,
+				E0DE0E1C1B4143F6006DC165 /* StreamDiscussionCard.swift in Sources */,
+				E0DE0DE31B41439A006DC165 /* AdventureHowToReachHeader.swift in Sources */,
 				75B4CB5C1B300B29002BAC09 /* NSData+ImageContentType.m in Sources */,
-				E0DDCC081B383A61005EF14A /* DiscussionDetailHeader.swift in Sources */,
 				75B4CAF31B281883002BAC09 /* FontAwesome.swift in Sources */,
-				E0DDCC041B381E98005EF14A /* CommentsView.swift in Sources */,
+				E0DE0DDB1B41439A006DC165 /* AdventureAboutHeader.swift in Sources */,
 				75B4CB621B300B29002BAC09 /* SDWebImageManager.m in Sources */,
+				E0DE0E161B4143F6006DC165 /* StreamActivityCard.swift in Sources */,
 				75B4CB601B300B29002BAC09 /* SDWebImageDownloader.m in Sources */,
-				75B4CAFF1B281883002BAC09 /* StreamAdventureCard.swift in Sources */,
 				75B4CB651B300B29002BAC09 /* UIImage+GIF.m in Sources */,
-				E0D7DDDE1B356CDB00347C1F /* StreamUserProfileViewController.swift in Sources */,
+				E0DE0E311B414450006DC165 /* ArticleDetailCard.swift in Sources */,
+				E0DE0DF41B4143BB006DC165 /* StreamUserProfileViewController.swift in Sources */,
 				75B4CAF01B281883002BAC09 /* AsyncImageView.swift in Sources */,
+				E0DE0E031B4143E1006DC165 /* DiscussionDescriptionView.swift in Sources */,
 				75B4CB631B300B29002BAC09 /* SDWebImagePrefetcher.m in Sources */,
-				E0D662391B3056D10069D310 /* StreamArticleCard.swift in Sources */,
-				E0DC11591B3A979C009D23E0 /* AdventureHowToReachHeader.swift in Sources */,
-				E0D6F8DA1B3AAD6700841777 /* ArticleDetailViewController.swift in Sources */,
 				75B4CB641B300B29002BAC09 /* UIButton+WebCache.m in Sources */,
 				75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */,
 				75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */,
 				75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */,
 				75B4CB661B300B29002BAC09 /* UIImage+MultiFormat.m in Sources */,
+				E0DE0DDF1B41439A006DC165 /* AdventureDetailCard.swift in Sources */,
+				E0DE0DE71B41439A006DC165 /* AdventureReviewsHeader.swift in Sources */,
 				E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */,
 				75B4CB5F1B300B29002BAC09 /* SDWebImageDecoder.m in Sources */,
-				E0DC6D1D1B3958E0008D945B /* AdventureDetailViewController.swift in Sources */,
-				E0DDE6511B39C0D200473708 /* AdventureAboutHeader.swift in Sources */,
-				E0D6B8C01B329EC7001971C3 /* ProfileView.swift in Sources */,
+				E0DE0E2D1B414450006DC165 /* ArticleCommentsView.swift in Sources */,
 				75B4CAF21B281883002BAC09 /* ContainerView.swift in Sources */,
-				E0D6F8D61B3AA6F600841777 /* AdventureReviewsView.swift in Sources */,
+				E0D651091B4162BD0048E776 /* AdventureHowToReachView.swift in Sources */,
+				E0DE0DF21B4143BB006DC165 /* ProfileView.swift in Sources */,
+				E0DE0E341B414450006DC165 /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
