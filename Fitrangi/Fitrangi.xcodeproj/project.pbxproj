@@ -44,6 +44,12 @@
 		E0D651091B4162BD0048E776 /* AdventureHowToReachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */; };
 		E0D6510B1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */; };
 		E0D6510D1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */; };
+		E0D70B881B4278F300B84E8E /* FollowersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D70B871B4278F300B84E8E /* FollowersView.xib */; };
+		E0D70B8A1B427ADC00B84E8E /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D70B891B427ADB00B84E8E /* FollowersViewController.swift */; };
+		E0D70B8C1B427D4A00B84E8E /* FollowersCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D70B8B1B427D4A00B84E8E /* FollowersCard.xib */; };
+		E0D70B8E1B427D5C00B84E8E /* FollowersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D70B8D1B427D5C00B84E8E /* FollowersCard.swift */; };
+		E0D70B901B4287BA00B84E8E /* FollowersHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D70B8F1B4287BA00B84E8E /* FollowersHeader.xib */; };
+		E0D70B921B4287D400B84E8E /* FollowersHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D70B911B4287D400B84E8E /* FollowersHeader.swift */; };
 		E0D7A20F1B33FC7B0010D9D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */; };
 		E0DE0DDB1B41439A006DC165 /* AdventureAboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE0DCB1B41439A006DC165 /* AdventureAboutHeader.swift */; };
 		E0DE0DDC1B41439A006DC165 /* AdventureAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DE0DCC1B41439A006DC165 /* AdventureAboutHeader.xib */; };
@@ -170,6 +176,12 @@
 		E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureHowToReachView.swift; sourceTree = "<group>"; };
 		E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdventureNearbyFacilitiesView.xib; sourceTree = "<group>"; };
 		E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureNearbyFacilitiesView.swift; sourceTree = "<group>"; };
+		E0D70B871B4278F300B84E8E /* FollowersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowersView.xib; sourceTree = "<group>"; };
+		E0D70B891B427ADB00B84E8E /* FollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		E0D70B8B1B427D4A00B84E8E /* FollowersCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowersCard.xib; sourceTree = "<group>"; };
+		E0D70B8D1B427D5C00B84E8E /* FollowersCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersCard.swift; sourceTree = "<group>"; };
+		E0D70B8F1B4287BA00B84E8E /* FollowersHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowersHeader.xib; sourceTree = "<group>"; };
+		E0D70B911B4287D400B84E8E /* FollowersHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersHeader.swift; sourceTree = "<group>"; };
 		E0D7A20E1B33FC7B0010D9D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E0DE0DCB1B41439A006DC165 /* AdventureAboutHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdventureAboutHeader.swift; path = AdventureDetails/AdventureAboutHeader.swift; sourceTree = "<group>"; };
 		E0DE0DCC1B41439A006DC165 /* AdventureAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdventureAboutHeader.xib; path = AdventureDetails/AdventureAboutHeader.xib; sourceTree = "<group>"; };
@@ -413,6 +425,12 @@
 				E0D651081B4162BD0048E776 /* AdventureHowToReachView.swift */,
 				E0D6510A1B41651C0048E776 /* AdventureNearbyFacilitiesView.xib */,
 				E0D6510C1B41653D0048E776 /* AdventureNearbyFacilitiesView.swift */,
+				E0D70B871B4278F300B84E8E /* FollowersView.xib */,
+				E0D70B891B427ADB00B84E8E /* FollowersViewController.swift */,
+				E0D70B8B1B427D4A00B84E8E /* FollowersCard.xib */,
+				E0D70B8D1B427D5C00B84E8E /* FollowersCard.swift */,
+				E0D70B8F1B4287BA00B84E8E /* FollowersHeader.xib */,
+				E0D70B911B4287D400B84E8E /* FollowersHeader.swift */,
 			);
 			path = Stream;
 			sourceTree = "<group>";
@@ -577,14 +595,17 @@
 				75B4CAAB1B281788002BAC09 /* LaunchScreen.xib in Resources */,
 				E0DE0E1B1B4143F6006DC165 /* StreamArticleCard.xib in Resources */,
 				75B4CAA81B281788002BAC09 /* Images.xcassets in Resources */,
+				E0D70B901B4287BA00B84E8E /* FollowersHeader.xib in Resources */,
 				E0DE0E191B4143F6006DC165 /* StreamAdventureCard.xib in Resources */,
 				E0DE0E061B4143E1006DC165 /* DiscussionDetailCard.xib in Resources */,
 				E0DE0E301B414450006DC165 /* ArticleContentView.xib in Resources */,
 				E0DE0E081B4143E1006DC165 /* DiscussionDetailHeader.xib in Resources */,
+				E0D70B8C1B427D4A00B84E8E /* FollowersCard.xib in Resources */,
 				E0DE0DEA1B41439A006DC165 /* AdventureReviewsView.xib in Resources */,
 				75B4CAF51B281883002BAC09 /* FontAwesome.ttf in Resources */,
 				E0DE0DE41B41439A006DC165 /* AdventureHowToReachHeader.xib in Resources */,
 				E0DE0E1F1B4143F6006DC165 /* StreamFollowCard.xib in Resources */,
+				E0D70B881B4278F300B84E8E /* FollowersView.xib in Resources */,
 				E0DE0DE81B41439A006DC165 /* AdventureReviewsHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,7 +705,9 @@
 				E0DE0DE31B41439A006DC165 /* AdventureHowToReachHeader.swift in Sources */,
 				75B4CB5C1B300B29002BAC09 /* NSData+ImageContentType.m in Sources */,
 				75B4CAF31B281883002BAC09 /* FontAwesome.swift in Sources */,
+				E0D70B8E1B427D5C00B84E8E /* FollowersCard.swift in Sources */,
 				E0DE0DDB1B41439A006DC165 /* AdventureAboutHeader.swift in Sources */,
+				E0D70B8A1B427ADC00B84E8E /* FollowersViewController.swift in Sources */,
 				75B4CB621B300B29002BAC09 /* SDWebImageManager.m in Sources */,
 				E0DE0E161B4143F6006DC165 /* StreamActivityCard.swift in Sources */,
 				75B4CB601B300B29002BAC09 /* SDWebImageDownloader.m in Sources */,
@@ -695,6 +718,7 @@
 				E0DE0E031B4143E1006DC165 /* DiscussionDescriptionView.swift in Sources */,
 				75B4CB631B300B29002BAC09 /* SDWebImagePrefetcher.m in Sources */,
 				75B4CB641B300B29002BAC09 /* UIButton+WebCache.m in Sources */,
+				E0D70B921B4287D400B84E8E /* FollowersHeader.swift in Sources */,
 				75B4CB681B300B29002BAC09 /* UIImageView+WebCache.m in Sources */,
 				75B4CB691B300B29002BAC09 /* UIView+WebCacheOperation.m in Sources */,
 				75B4CB731B3055CC002BAC09 /* WebRequestExecutor.swift in Sources */,
