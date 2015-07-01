@@ -96,7 +96,7 @@ class StreamTableViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var vc = FollowersViewController(nibName: "FollowersView", bundle : nil) as FollowersViewController
+        var vc = AdventureDetailViewController(nibName: "AdventureDetailView", bundle : nil) as AdventureDetailViewController
         presentViewController(vc, animated: true, completion: nil)
     }
     

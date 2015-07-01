@@ -29,8 +29,8 @@ class ArticleDetailCard : UITableViewCell {
         commentsIconLabel.text = String.fontAwesomeIconWithName("fa-comment-o")
         commentsIconLabel.font = UIFont.fontAwesomeOfSize(15)
         commentsLabel.text = "0"
-        viewsLabel.text = "135 Views"
-        timeSincePostedLabel.text = "23 days ago"
+        viewsLabel.text = "163 Views"
+        timeSincePostedLabel.text = "30 days ago"
     }
     
 }

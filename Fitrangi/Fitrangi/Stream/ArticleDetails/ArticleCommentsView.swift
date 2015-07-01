@@ -18,7 +18,7 @@ class ArticleCommentsView : UITableViewCell {
         super.awakeFromNib()
         
         nameLabel.text = "Neha Yadav"
-        commentLabel.text = "Test test test test test.\nComment comment comment comment.\nYayyy yaayyyy yayyyyyy yaayyyyy!!"
+        commentLabel.text = "Test test test test test.\n\nComment comment comment comment."
         timeSincePostedLabel.text = "2 days ago"
         
     }
